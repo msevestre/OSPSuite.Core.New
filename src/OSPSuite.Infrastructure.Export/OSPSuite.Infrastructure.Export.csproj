@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OSPSuite.SmartXLS" Version="2.7.0.9" />
+    <PackageReference Include="OSPSuite.Utility" Version="4.0.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OSPSuite.Assets\OSPSuite.Assets.csproj" />
+    <ProjectReference Include="..\OSPSuite.Core\OSPSuite.Core.csproj" />
+  </ItemGroup>
+
+</Project>
