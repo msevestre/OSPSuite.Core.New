@@ -23,12 +23,19 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\OSPSuite.Core\OSPSuite.Core.csproj" />
+    <ProjectReference Include="..\..\src\OSPSuite.Engine\OSPSuite.Engine.csproj" />
     <ProjectReference Include="..\..\src\OSPSuite.Infrastructure\OSPSuite.Infrastructure.csproj" />
     <ProjectReference Include="..\OSPSuite.Core.Tests\OSPSuite.Core.Tests.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="DiffBuilders\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\lib\OSPSuite.FuncParserNative.dll" Link="OSPSuite.FuncParserNative.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

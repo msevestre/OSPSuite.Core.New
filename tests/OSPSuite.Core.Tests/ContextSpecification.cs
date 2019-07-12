@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using OSPSuite.BDDHelper;
+using OSPSuite.Engine;
 
 namespace OSPSuite
 {
@@ -8,7 +9,7 @@ namespace OSPSuite
       public override async Task GlobalContext()
       {
          await base.GlobalContext();
-//         EngineRegister.InitFormulaParser();
+         EngineRegister.InitFormulaParser();
       }
    }
 
@@ -17,7 +18,7 @@ namespace OSPSuite
       public override void GlobalContext()
       {
          base.GlobalContext();
-//         EngineRegister.InitFormulaParser();
+         EngineRegister.InitFormulaParser();
       }
    }
 }

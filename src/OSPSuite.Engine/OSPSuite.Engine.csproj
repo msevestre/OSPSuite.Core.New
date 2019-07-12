@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OSPSuite.Utility" Version="4.0.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OSPSuite.Core\OSPSuite.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OSPSuite.FuncParser">
+      <HintPath>..\..\lib\OSPSuite.FuncParser.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

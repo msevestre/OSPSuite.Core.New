@@ -14,6 +14,7 @@ using OSPSuite.Core.Serialization;
 using OSPSuite.Core.Serialization.Exchange;
 using OSPSuite.Core.Serialization.Xml;
 using OSPSuite.Core.Services;
+using OSPSuite.Engine;
 using OSPSuite.Infrastructure;
 using OSPSuite.Infrastructure.Container.Castle;
 using OSPSuite.Infrastructure.Services;
@@ -42,11 +43,11 @@ namespace OSPSuite.Helpers
          container.Register<IObjectBaseFactory, ObjectBaseFactory>(LifeStyle.Singleton);
          container.Register<IDimensionFactory, DimensionFactoryForIntegrationTests>(LifeStyle.Singleton);
          container.Register<IGroupRepository, GroupRepositoryForSpecs>(LifeStyle.Singleton);
-//   TODO      container.Register<IDisplayNameProvider, DisplayNameProvider>();
          container.Register<IDataRepositoryTask, DataRepositoryTask>();
          container.Register<IDataNamingService, DataNamingServiceForSpecs>();
          container.Register<SimulationHelperForSpecs, SimulationHelperForSpecs>();
          container.Register<ModelHelperForSpecs, ModelHelperForSpecs>();
+         container.Register<IDisplayNameProvider, DisplayNameProvider>();
          container.Register<ConcentrationBaseModelHelperForSpecs, ConcentrationBaseModelHelperForSpecs>();
          container.Register<IReactionDimensionRetriever, ReactionDimensionRetrieverForSpecs>(LifeStyle.Singleton);
          container.Register(typeof(IRepository<>), typeof(ImplementationRepository<>));
@@ -80,12 +81,13 @@ namespace OSPSuite.Helpers
          using (container.OptimizeDependencyResolution())
          {
             container.AddRegister(x => x.FromType<CoreRegister>());
- //TODO           container.AddRegister(x => x.FromType<EngineRegister>());
+            container.AddRegister(x => x.FromType<EngineRegister>());
             container.AddRegister(x => x.FromType<InfrastructureRegister>());
             var register = new CoreSerializerRegister();
             container.AddRegister(x => x.FromInstance(register));
             register.PerformMappingForSerializerIn(container);
          }
+
 
          initializeDimensions();
 
