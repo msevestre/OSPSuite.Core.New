@@ -9,6 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\lib\OSPSuite.FuncParserNative.dll" Link="OSPSuite.FuncParserNative.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FakeItEasy" Version="5.1.1" />
     <PackageReference Include="nunit" Version="3.11.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.11.0" />
@@ -18,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\OSPSuite.Core\OSPSuite.Core.csproj" />
+    <ProjectReference Include="..\..\src\OSPSuite.Engine\OSPSuite.Engine.csproj" />
   </ItemGroup>
 
 </Project>
