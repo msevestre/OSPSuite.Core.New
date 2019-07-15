@@ -86,7 +86,7 @@ namespace OSPSuite.Presentation.Presenters.Importer
          _view.SetIcon(dataImporterSettings.Icon);
          _view.StartImport(sourceFile, new ImportTableConfiguration {MetaDataCategories = metaDataCategories, ColumnInfos = columnInfos}, mode);
 
-         _view.ShowDialog();
+         _view.Display();
 
          if (_view.Canceled)
             return Enumerable.Empty<DataRepository>();

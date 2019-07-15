@@ -10,7 +10,6 @@ namespace OSPSuite.Presentation.Views.Importer
    {
       void StartImport(string sourceFile, ImportTableConfiguration importTableConfiguration, Mode mode);
       IList<ImportDataTable> Imports { get; }
-      ViewResult ShowDialog();
       void SetIcon(ApplicationIcon icon);
       void SetNamingView(IView view);
    }

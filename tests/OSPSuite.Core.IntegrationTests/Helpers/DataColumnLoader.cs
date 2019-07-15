@@ -10,6 +10,7 @@ using DataColumn = OSPSuite.Core.Domain.Data.DataColumn;
 
 namespace OSPSuite.Core
 {
+   //TODO REMOVE
    internal static class DataColumnLoader
    {
       public static DataColumn GetDataColumnFrom(string excelFileNameWithoutExtension)

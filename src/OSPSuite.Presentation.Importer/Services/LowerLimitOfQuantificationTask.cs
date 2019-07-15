@@ -39,7 +39,7 @@ namespace OSPSuite.Presentation.Services.Importer
       void AttachLLOQ(ImportDataColumn column, float lloq);
    }
 
-   internal class LowerLimitOfQuantificationTask : ILowerLimitOfQuantificationTask
+   public class LowerLimitOfQuantificationTask : ILowerLimitOfQuantificationTask
    {
       private const string LESS_THAN = "<";
 
