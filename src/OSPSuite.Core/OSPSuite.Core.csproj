@@ -20,7 +20,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Services\ParameterIdentifications\ParameterIdentificationExportTemplate.m" />
+    <None Remove="Services\ParameterIdentifications\ParameterIdentificationExportTemplate.r" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Include="..\..\SolutionInfo.cs" Link="Properties\SolutionInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Services\ParameterIdentifications\ParameterIdentificationExportTemplate.m" />
+    <EmbeddedResource Include="Services\ParameterIdentifications\ParameterIdentificationExportTemplate.r" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1090,14 +1090,14 @@ namespace OSPSuite.Helpers
       }
    }
 
-   internal class EntityPathResolverForSpecs : EntityPathResolver
+   public class EntityPathResolverForSpecs : EntityPathResolver
    {
       public EntityPathResolverForSpecs() : base(new ObjectPathFactoryForSpecs())
       {
       }
    }
 
-   internal class ObjectPathFactoryForSpecs : ObjectPathFactory
+   public class ObjectPathFactoryForSpecs : ObjectPathFactory
    {
       public ObjectPathFactoryForSpecs()
          : base(new AliasCreator())
@@ -1105,7 +1105,7 @@ namespace OSPSuite.Helpers
       }
    }
 
-   internal class ObjectBaseFactoryForSpecs : IObjectBaseFactory
+   public class ObjectBaseFactoryForSpecs : IObjectBaseFactory
    {
       private readonly IDimensionFactory _dimensionFactory;
 
