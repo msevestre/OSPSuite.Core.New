@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSPSuite.Infrastructure.Rep
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSPSuite.Infrastructure.Export", "src\OSPSuite.Infrastructure.Export\OSPSuite.Infrastructure.Export.csproj", "{8A5DE288-F16A-468D-802C-3AB42EF55C57}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSPSuite.Infrastructure.Tests", "tests\OSPSuite.Infrastructure.Tests\OSPSuite.Infrastructure.Tests.csproj", "{20E08171-91B3-4DFB-B8B5-E158F5343D6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSPSuite.Core.IntegrationTests", "tests\OSPSuite.Core.IntegrationTests\OSPSuite.Core.IntegrationTests.csproj", "{20E08171-91B3-4DFB-B8B5-E158F5343D6C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSPSuite.Engine", "src\OSPSuite.Engine\OSPSuite.Engine.csproj", "{B596A090-64DB-48FC-8559-3A1149C46BE2}"
 EndProject
