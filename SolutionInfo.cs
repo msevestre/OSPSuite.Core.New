@@ -7,4 +7,4 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 [assembly: InternalsVisibleTo("OSPSuite.Core.Tests")]
 [assembly: InternalsVisibleTo("OSPSuite.UI.Tests")]
-[assembly: InternalsVisibleTo("OSPSuite.Infrastructure.Tests")]
+[assembly: InternalsVisibleTo("OSPSuite.Core.IntegrationTests")]
