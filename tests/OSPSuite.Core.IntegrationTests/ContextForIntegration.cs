@@ -81,7 +81,6 @@ namespace OSPSuite.Helpers
          using (container.OptimizeDependencyResolution())
          {
             container.AddRegister(x => x.FromType<CoreRegister>());
-            container.AddRegister(x => x.FromType<EngineRegister>());
             container.AddRegister(x => x.FromType<InfrastructureRegister>());
             var register = new CoreSerializerRegister();
             container.AddRegister(x => x.FromInstance(register));

@@ -49,4 +49,10 @@
     <ProjectReference Include="..\OSPSuite.Assets\OSPSuite.Assets.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="OSPSuite.FuncParser">
+      <HintPath>..\..\lib\OSPSuite.FuncParser.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
