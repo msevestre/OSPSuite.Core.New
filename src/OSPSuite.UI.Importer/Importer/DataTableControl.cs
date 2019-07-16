@@ -4,7 +4,6 @@ using System.Windows.Forms;
 using DevExpress.Utils;
 using DevExpress.Utils.Menu;
 using DevExpress.XtraEditors;
-using DevExpress.XtraGrid;
 using DevExpress.XtraGrid.Columns;
 using DevExpress.XtraGrid.Localization;
 using DevExpress.XtraGrid.Menu;
@@ -13,7 +12,7 @@ using DevExpress.XtraGrid.Views.Grid.ViewInfo;
 using OSPSuite.UI.Controls;
 using OSPSuite.UI.Extensions;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    public partial class DataTableControl : XtraUserControl
    {

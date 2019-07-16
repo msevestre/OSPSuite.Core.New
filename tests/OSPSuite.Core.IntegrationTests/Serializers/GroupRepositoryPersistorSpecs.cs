@@ -1,13 +1,13 @@
 ﻿using System.Linq;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility;
-using OSPSuite.Utility.Container;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Serialization.Xml;
 using OSPSuite.Helpers;
+using OSPSuite.Utility;
+using OSPSuite.Utility.Container;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public abstract class concern_for_GroupRepositoryPersistor : ContextForIntegration<IGroupRepositoryPersistor>
    {

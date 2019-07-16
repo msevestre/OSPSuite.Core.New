@@ -6,12 +6,12 @@ using System.Linq;
 using OSPSuite.Utility;
 using SmartXLS;
 
-namespace OSPSuite.Infrastructure.Services
+namespace OSPSuite.Infrastructure.Export
 {
    public static class ExportToExcelTask
    {
       /// <summary>
-      ///    Exports the given datatable to the file given as parameter.
+      ///    Exports the given dataTable to the file given as parameter.
       /// </summary>
       /// <param name="dataTable">Data Table to export</param>
       /// <param name="fileName">Target file</param>
@@ -23,7 +23,7 @@ namespace OSPSuite.Infrastructure.Services
       }
 
       /// <summary>
-      ///    Exports the given datatables to the file given as parameter. One sheet will be created per table
+      ///    Exports the given dataTables to the file given as parameter. One sheet will be created per table
       /// </summary>
       /// <param name="dataTables">Data Tables to export</param>
       /// <param name="fileName">Target file</param>
@@ -65,7 +65,7 @@ namespace OSPSuite.Infrastructure.Services
       }
 
       /// <summary>
-      ///    Exports the given datatables to the file given as parameter. One sheet will be created per table
+      ///    Exports the given dataTables to the file given as parameter. One sheet will be created per table
       /// </summary>
       /// <param name="dataTables">Data Tables to export</param>
       /// <param name="fileName">Target file</param>

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using DevExpress.Utils;
 using OSPSuite.Assets;
 using OSPSuite.Presentation.Extensions;
-using OSPSuite.Presentation.Presenters.Importer;
-using OSPSuite.Presentation.Views.Importer;
+using OSPSuite.Presentation.Presenter;
+using OSPSuite.Presentation.View;
 using OSPSuite.UI.Controls;
 using OSPSuite.UI.Extensions;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    public partial class NamingPatternView : BaseUserControl, INamingPatternView
    {

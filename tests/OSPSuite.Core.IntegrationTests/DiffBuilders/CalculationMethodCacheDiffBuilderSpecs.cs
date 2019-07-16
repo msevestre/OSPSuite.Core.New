@@ -4,7 +4,7 @@ using OSPSuite.Core.Comparison;
 using OSPSuite.Core.Domain;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.DiffBuilders
 {
    public abstract class concern_for_CalculationMethodCacheDiffBuilder : concern_for_ObjectComparer
    {

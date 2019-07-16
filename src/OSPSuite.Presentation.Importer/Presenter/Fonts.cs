@@ -1,7 +1,7 @@
 ﻿using System.Drawing;
 using DevExpress.Utils;
 
-namespace OSPSuite.Presentation.Presenters.Importer
+namespace OSPSuite.Presentation.Presenter
 {
    /// <summary>
    ///    Storage for application default font definitions

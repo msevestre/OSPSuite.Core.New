@@ -4,6 +4,7 @@ using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Utility.Exceptions;
 using FakeItEasy;
 using OSPSuite.Assets;
+using OSPSuite.Core.Services;
 using OSPSuite.Presentation.Presenters;
 using OSPSuite.Presentation.Services;
 

@@ -1,5 +1,5 @@
 using System;
-using OSPSuite.Presentation.Services;
+using OSPSuite.Core.Services;
 
 namespace OSPSuite.Helpers
 {

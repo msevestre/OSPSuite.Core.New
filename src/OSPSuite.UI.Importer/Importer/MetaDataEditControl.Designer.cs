@@ -1,4 +1,4 @@
-﻿namespace OSPSuite.UI.Views.Importer
+﻿namespace OSPSuite.UI.Importer
 {
    /// <summary>
    /// User control for editing meta data.

@@ -5,7 +5,7 @@ using OSPSuite.Assets;
 using OSPSuite.Core.Importer;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    public partial class EditMetaDataView : XtraForm
    {

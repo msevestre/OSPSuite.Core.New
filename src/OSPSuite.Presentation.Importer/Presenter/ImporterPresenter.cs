@@ -8,11 +8,12 @@ using OSPSuite.Core.Domain.Data;
 using OSPSuite.Core.Importer;
 using OSPSuite.Core.Importer.Mappers;
 using OSPSuite.Core.Services;
-using OSPSuite.Presentation.Services.Importer;
-using OSPSuite.Presentation.Views.Importer;
+using OSPSuite.Presentation.Presenters;
+using OSPSuite.Presentation.Services;
+using OSPSuite.Presentation.View;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Presentation.Presenters.Importer
+namespace OSPSuite.Presentation.Presenter
 {
    public interface IImporterPresenter : IDisposablePresenter
    {
@@ -146,7 +147,7 @@ namespace OSPSuite.Presentation.Presenters.Importer
 
       public bool SelectRange(string sourceFile, string sheetName)
       {
-         var wb = Services.Importer.SmartXLS.ReadExcelFile(sourceFile);
+         var wb = Services.SmartXLS.ReadExcelFile(sourceFile);
          wb.Sheet = wb.GetIndexFromSheetName(sheetName);
 
          return selectRange(wb.ExportDataTable(0, 0, wb.LastRow + 1, wb.LastCol + 1, false, false));

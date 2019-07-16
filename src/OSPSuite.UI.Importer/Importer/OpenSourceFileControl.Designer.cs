@@ -1,4 +1,4 @@
-﻿namespace OSPSuite.UI.Views.Importer
+﻿namespace OSPSuite.UI.Importer
 {
    partial class OpenSourceFileControl
    {

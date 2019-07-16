@@ -6,12 +6,12 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using DevExpress.Utils;
-using SmartXLS;
 using OSPSuite.Assets;
 using OSPSuite.Core.Importer;
 using OSPSuite.Core.Importer.Mappers;
+using SmartXLS;
 
-namespace OSPSuite.Presentation.Services.Importer
+namespace OSPSuite.Presentation.Services
 {
    public interface IImporterTask
    {

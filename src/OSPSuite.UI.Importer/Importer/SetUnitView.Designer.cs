@@ -1,4 +1,4 @@
-﻿namespace OSPSuite.UI.Views.Importer
+﻿namespace OSPSuite.UI.Importer
 {
    /// <summary>
    /// This is a view for selecting a unit.

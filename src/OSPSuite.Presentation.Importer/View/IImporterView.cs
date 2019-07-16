@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using OSPSuite.Assets;
 using OSPSuite.Core.Importer;
-using OSPSuite.Core.Services;
-using OSPSuite.Presentation.Presenters.Importer;
+using OSPSuite.Presentation.Presenter;
+using OSPSuite.Presentation.Views;
 
-namespace OSPSuite.Presentation.Views.Importer
+namespace OSPSuite.Presentation.View
 {
    public interface IImporterView : IModalView<IImporterPresenter>
    {

@@ -6,7 +6,7 @@ using OSPSuite.Assets;
 using OSPSuite.Core.Services;
 using OSPSuite.Presentation.Extensions;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    public partial class OpenSourceFileControl : XtraUserControl
    {

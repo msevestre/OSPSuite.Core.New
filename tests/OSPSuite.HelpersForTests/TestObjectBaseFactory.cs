@@ -6,9 +6,9 @@ using OSPSuite.Utility.Extensions;
 
 namespace OSPSuite.Helpers
 {
-   internal class TestObjectBaseFactory : IObjectBaseFactory
+   public class TestObjectBaseFactory : IObjectBaseFactory
    {
-      // other methods are not nessessary
+      // other methods are not necessary
       public T Create<T>() where T : class,  IObjectBase
       {
 

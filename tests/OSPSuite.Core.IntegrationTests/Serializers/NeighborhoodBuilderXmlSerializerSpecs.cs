@@ -1,11 +1,11 @@
-using OSPSuite.Utility.Extensions;
 using NUnit.Framework;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Builder;
 using OSPSuite.Core.Domain.Formulas;
 using OSPSuite.Helpers;
+using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public class NeighborhoodBuilderXmlSerializerSpecs : MiniEnvironmentSerializerBaseSpecs
    {

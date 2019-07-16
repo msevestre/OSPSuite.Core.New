@@ -1,7 +1,7 @@
 ﻿using OSPSuite.UI.Controls;
 using UxGridView = OSPSuite.UI.Controls.UxGridView;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    partial class ImportDataTableGridView
    {

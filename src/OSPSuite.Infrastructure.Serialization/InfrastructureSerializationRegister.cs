@@ -1,10 +1,9 @@
 ﻿using OSPSuite.Core;
-using OSPSuite.Core.Reporting;
-using OSPSuite.Infrastructure.Journal;
-using OSPSuite.Infrastructure.Journal.Commands;
-using OSPSuite.Infrastructure.Journal.Queries;
+using OSPSuite.Infrastructure.Serialization.Journal;
+using OSPSuite.Infrastructure.Serialization.Journal.Commands;
+using OSPSuite.Infrastructure.Serialization.Journal.Queries;
 using OSPSuite.Infrastructure.Serialization.ORM.MetaData;
-using OSPSuite.Infrastructure.Services;
+using OSPSuite.Infrastructure.Serialization.Services;
 using OSPSuite.Utility.Container;
 
 namespace OSPSuite.Infrastructure.Serialization
@@ -23,7 +22,7 @@ namespace OSPSuite.Infrastructure.Serialization
             //Will be registered using specific convention
             scan.ExcludeNamespaceContainingType<AllKnownTags>();
             scan.ExcludeNamespaceContainingType<JournalPagePayload>();
-   
+
             scan.WithConvention(new OSPSuiteRegistrationConvention(registerConcreteType: true));
          });
 
@@ -42,6 +41,5 @@ namespace OSPSuite.Infrastructure.Serialization
             scan.WithConvention<JournalDatabaseCommandAndQueryConvention>();
          });
       }
-
    }
 }

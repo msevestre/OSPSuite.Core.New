@@ -1,15 +1,15 @@
 ﻿using System.Linq;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility.Container;
-using OSPSuite.Utility.Extensions;
-using OSPSuite.Utility.Format;
 using OSPSuite.Core.Comparison;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Formulas;
 using OSPSuite.Helpers;
+using OSPSuite.Utility.Container;
+using OSPSuite.Utility.Extensions;
+using OSPSuite.Utility.Format;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.DiffBuilders
 {
    public class When_comparing_parameters_having_the_same_formula_but_depending_on_parameters_having_different_values_and_we_are_validating_using_value_check : concern_for_ObjectComparer
    {

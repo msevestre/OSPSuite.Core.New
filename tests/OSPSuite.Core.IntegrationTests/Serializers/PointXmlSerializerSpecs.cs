@@ -1,9 +1,8 @@
 ﻿using System.Drawing;
-using OSPSuite.BDDHelper.Extensions;
 using NUnit.Framework;
-using OSPSuite.Helpers;
+using OSPSuite.BDDHelper.Extensions;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public class PointXmlSerializerSpecs : ModellingXmlSerializerBaseSpecs
    {

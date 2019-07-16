@@ -7,7 +7,7 @@ using OSPSuite.Core.Domain.Descriptors;
 using OSPSuite.Core.Domain.Formulas;
 using OSPSuite.Helpers;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.DiffBuilders
 {
    public class When_comparing_observers_with_for_all_false_and_differences_in_the_include_list :  concern_for_ObjectComparer
    {

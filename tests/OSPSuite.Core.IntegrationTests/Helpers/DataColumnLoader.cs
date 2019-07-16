@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
-using OSPSuite.Utility.Extensions;
-using SmartXLS;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Data;
+using OSPSuite.Utility.Extensions;
+using SmartXLS;
 using DataColumn = OSPSuite.Core.Domain.Data.DataColumn;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Helpers
 {
    //TODO REMOVE
    internal static class DataColumnLoader

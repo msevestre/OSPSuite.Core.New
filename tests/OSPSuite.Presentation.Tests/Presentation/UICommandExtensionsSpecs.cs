@@ -1,8 +1,8 @@
 ﻿using OSPSuite.BDDHelper;
 using OSPSuite.Utility.Events;
 using FakeItEasy;
-using OSPSuite.Presentation.Events;
 using OSPSuite.Presentation.MenuAndBars;
+using OSPSuite.Presentation.Presenters.Events;
 using OSPSuite.Presentation.Presenters.Main;
 using OSPSuite.Presentation.UICommands;
 

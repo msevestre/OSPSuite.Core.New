@@ -3,7 +3,7 @@ using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Domain;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.DiffBuilders
 {
    public class When_comparing_two_container_having_different_base_properties_and_container_properties : concern_for_ObjectComparer
    {

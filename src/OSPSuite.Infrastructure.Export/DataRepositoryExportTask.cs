@@ -15,13 +15,11 @@ using OSPSuite.Utility.Extensions;
 using OSPSuite.Utility.Format;
 using DataColumn = OSPSuite.Core.Domain.Data.DataColumn;
 
-namespace OSPSuite.Infrastructure.Services
+namespace OSPSuite.Infrastructure.Export
 {
    public class DataRepositoryExportTask : IDataRepositoryExportTask
    {
       private readonly NumericFormatter<double> _numericFormatter = new NumericFormatter<double>(NumericFormatterOptions.Instance);
-
-    
 
       public void ExportToExcel(IEnumerable<DataColumn> dataColumns, string fileName, bool launchExcel = true, DataColumnExportOptions exportOptions = null) =>
          ExportToExcel(ToDataTable(dataColumns, exportOptions), fileName, launchExcel);
@@ -48,7 +46,6 @@ namespace OSPSuite.Infrastructure.Services
          });
       }
 
-   
       public IReadOnlyList<DataTable> ToDataTable(
          IEnumerable<DataColumn> dataColumns,
          DataColumnExportOptions exportOptions = null
@@ -129,7 +126,7 @@ namespace OSPSuite.Infrastructure.Services
 
          var allColumns = sortColumnsForExport(columnsToExport.Where(x => !x.IsBaseGrid() && x.BaseGrid == baseGridColumn));
 
-       
+
          allColumns.Insert(0, baseGridColumn);
          var cacheName = retrieveUniqueNameForColumns(allColumns, columnNameRetriever);
          var cacheDimensions = retrieveDimensionsFor(allColumns, dimensionRetriever);
@@ -179,7 +176,6 @@ namespace OSPSuite.Infrastructure.Services
 
       private List<DataColumn> sortColumnsForExport(IEnumerable<DataColumn> allColumns)
       {
-
          var allDrugColumns = new List<DataColumn>(allColumns);
 
          var allColumnsNotDrug = allDrugColumns

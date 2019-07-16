@@ -5,7 +5,7 @@ using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Builder;
 using OSPSuite.Core.Domain.Descriptors;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.DiffBuilders
 {
    public class When_comparing_Transports_with_different_for_targetCriteria : concern_for_ObjectComparer
    {

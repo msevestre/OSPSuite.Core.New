@@ -1,11 +1,11 @@
 ﻿using OSPSuite.Assets;
-using OSPSuite.Utility;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Services;
 using OSPSuite.Core.Journal;
 using OSPSuite.Core.Services;
+using OSPSuite.Utility;
 
-namespace OSPSuite.Infrastructure.Journal
+namespace OSPSuite.Infrastructure.Serialization.Journal
 {
    public interface IJournalSessionConnector
    {

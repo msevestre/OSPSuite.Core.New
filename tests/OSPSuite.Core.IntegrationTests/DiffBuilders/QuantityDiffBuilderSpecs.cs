@@ -6,7 +6,7 @@ using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Formulas;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.DiffBuilders
 {
    public class When_comparing_to_quantities_with_one_of_which_having_a_formula_that_cannot_be_evaluated_ : concern_for_ObjectComparer
    {

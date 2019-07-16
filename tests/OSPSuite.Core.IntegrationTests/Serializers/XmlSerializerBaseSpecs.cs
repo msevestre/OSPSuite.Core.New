@@ -10,7 +10,7 @@ using OSPSuite.Core.Serialization.Xml;
 using OSPSuite.Serializer.Xml;
 using OSPSuite.Utility.Container;
 
-namespace OSPSuite.Helpers
+namespace OSPSuite.Core.Serializers
 {
    public abstract class XmlSerializerBaseSpecs<TSerializerRepository> : ContextForIntegration<TSerializerRepository>
       where TSerializerRepository : IXmlSerializerRepository<SerializationContext>

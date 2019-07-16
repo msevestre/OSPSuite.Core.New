@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using SmartXLS;
 using OSPSuite.Core.Importer;
+using SmartXLS;
 
-namespace OSPSuite.Presentation.Services.Importer
+namespace OSPSuite.Presentation.Services
 {
    static class SmartXLS
    {

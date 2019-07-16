@@ -3,7 +3,7 @@ using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Services;
 using OSPSuite.Helpers;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public class SimulationXmlSerializerSpecs : ModellingXmlSerializerWithModelBaseSpecs
    {

@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OSPSuite.Utility.Extensions;
 using OSPSuite.Core.Journal;
+using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Infrastructure.Journal.Queries
+namespace OSPSuite.Infrastructure.Serialization.Journal.Queries
 {
    public class JournalPageIdsFromSearch : IQuery<IEnumerable<string>>
    {

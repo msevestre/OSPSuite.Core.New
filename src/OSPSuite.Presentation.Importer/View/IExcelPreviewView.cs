@@ -1,7 +1,8 @@
 using System.Data;
-using OSPSuite.Presentation.Presenters.Importer;
+using OSPSuite.Presentation.Presenter;
+using OSPSuite.Presentation.Views;
 
-namespace OSPSuite.Presentation.Views.Importer
+namespace OSPSuite.Presentation.View
 {
    public interface IExcelPreviewView : IModalView<IExcelPreviewPresenter>
    {

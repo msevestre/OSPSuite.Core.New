@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using OSPSuite.Utility.Collections;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    public partial class SourceFilePreviewControl : XtraUserControl
    {
@@ -14,9 +14,9 @@ namespace OSPSuite.UI.Views.Importer
       private readonly string _fileName;
       private DataSet _data;
       private readonly Cache<string, Rectangle> _rangesCache;
-      private readonly Presentation.Services.Importer.Importer _importer;
+      private readonly Presentation.Services.Importer _importer;
 
-      public SourceFilePreviewControl(string fileName, Cache<string, Rectangle> rangeCache, Presentation.Services.Importer.Importer importer)
+      public SourceFilePreviewControl(string fileName, Cache<string, Rectangle> rangeCache, Presentation.Services.Importer importer)
       {
          InitializeComponent();
          _rangesCache = rangeCache;

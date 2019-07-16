@@ -3,9 +3,10 @@ using OSPSuite.Core.Domain.Builder;
 using OSPSuite.Core.Domain.Services;
 using OSPSuite.Core.Domain.UnitSystem;
 using OSPSuite.Core.Serialization.Xml;
+using OSPSuite.Helpers;
 using OSPSuite.Utility.Container;
 
-namespace OSPSuite.Helpers
+namespace OSPSuite.Core.Serializers
 {
    public abstract class ModellingXmlSerializerBaseSpecs : XmlSerializerBaseSpecs<IOSPSuiteXmlSerializerRepository>
    {

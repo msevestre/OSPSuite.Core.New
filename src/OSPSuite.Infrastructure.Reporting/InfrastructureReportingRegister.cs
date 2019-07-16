@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using OSPSuite.Core.Reporting;
 using OSPSuite.Core.Services;
+using OSPSuite.Infrastructure.Services;
 using OSPSuite.TeXReporting.Builder;
 using OSPSuite.Utility.Container;
 using OSPSuite.Utility.Container.Conventions;
@@ -9,19 +11,21 @@ using OSPSuite.Utility.Extensions;
 
 namespace OSPSuite.Infrastructure.Reporting
 {
-   public class ReportingRegister : Register
+   public class InfrastructureReportingRegister : Register
    {
       public override void RegisterInContainer(IContainer container)
       {
          container.AddScanner(scan =>
          {
-            scan.AssemblyContainingType<ReportingRegister>();
-            scan.IncludeNamespaceContainingType<ReportingRegister>();
+            scan.AssemblyContainingType<InfrastructureReportingRegister>();
+            scan.IncludeNamespaceContainingType<InfrastructureReportingRegister>();
+            scan.ExcludeType<ReportTemplateRepository>();
             scan.WithConvention<ReporterRegistrationConvention>();
          });
 
          container.Register<IOSPSuiteTeXReporterRepository, OSPSuiteTeXReporterRepository>(LifeStyle.Singleton);
          container.Register<IReportingTask, ReportingTask>();
+         container.Register<IReportTemplateRepository, ReportTemplateRepository>(LifeStyle.Singleton);
       }
    }
 

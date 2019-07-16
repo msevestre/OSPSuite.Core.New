@@ -1,11 +1,10 @@
-﻿using NUnit.Framework;
-using OSPSuite.BDDHelper;
+﻿using OSPSuite.BDDHelper;
 using OSPSuite.Core.Chart;
 using OSPSuite.Core.Domain.UnitSystem;
 using OSPSuite.Helpers;
 using OSPSuite.Utility.Container;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public class AxisXmlSerializerSpecs : ModellingXmlSerializerBaseSpecs
    {

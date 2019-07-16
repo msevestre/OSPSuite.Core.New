@@ -13,12 +13,12 @@ using DevExpress.XtraTab.ViewInfo;
 using OSPSuite.Assets;
 using OSPSuite.Core.Importer;
 using OSPSuite.Core.Importer.Mappers;
+using OSPSuite.Presentation.Presenter;
 using OSPSuite.Presentation.Presenters.Charts;
-using OSPSuite.Presentation.Presenters.Importer;
-using OSPSuite.Presentation.Services.Importer;
+using OSPSuite.Presentation.Services;
 using OSPSuite.Utility.Container;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    /// <summary>
    /// This control displays all tables of a given data set on a separate tab page.

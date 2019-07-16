@@ -2,7 +2,7 @@
 using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Domain;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.DiffBuilders
 {
    public class When_comparing_Event_Groups_with_differernt_EventGroupType:concern_for_ObjectComparer
    {

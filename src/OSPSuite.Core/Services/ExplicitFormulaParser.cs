@@ -5,7 +5,7 @@ using OSPSuite.Core.Domain.Services;
 using OSPSuite.FuncParser;
 using OSPSuite.Utility.Exceptions;
 
-namespace OSPSuite.Engine.Domain
+namespace OSPSuite.Core.Services
 {
    /// <summary>
    /// </summary>

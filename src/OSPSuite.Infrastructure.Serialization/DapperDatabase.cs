@@ -9,7 +9,7 @@ using System.Text;
 using Dapper;
 using OSPSuite.Utility.Extensions;
 using OSPSuite.Core.Extensions;
-using OSPSuite.Infrastructure.Journal;
+using OSPSuite.Infrastructure.Serialization.Journal;
 
 namespace OSPSuite.Infrastructure.Serialization
 {

@@ -1,7 +1,6 @@
 ﻿using OSPSuite.Core.Domain;
-using OSPSuite.Presentation.Presenters;
 
-namespace OSPSuite.Presentation.Events
+namespace OSPSuite.Presentation.Presenters.Events
 {
    public class ApplicationInitializedEvent
    {

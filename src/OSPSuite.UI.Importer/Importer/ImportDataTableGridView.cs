@@ -5,19 +5,18 @@ using System.Drawing;
 using System.Windows.Forms;
 using DevExpress.Utils;
 using DevExpress.Utils.Menu;
-using DevExpress.XtraGrid;
 using DevExpress.XtraGrid.Columns;
 using DevExpress.XtraGrid.Menu;
 using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.XtraGrid.Views.Grid.ViewInfo;
 using OSPSuite.Assets;
 using OSPSuite.Core.Importer;
-using OSPSuite.Presentation.Presenters.Importer;
-using OSPSuite.Presentation.Views.Importer;
+using OSPSuite.Presentation.Presenter;
+using OSPSuite.Presentation.View;
 using OSPSuite.UI.Controls;
 using OSPSuite.UI.Services;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    public partial class ImportDataTableGridView : BaseUserControl, IImportDataTableGridView
    {

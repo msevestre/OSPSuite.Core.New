@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using OSPSuite.BDDHelper.Extensions;
 using NUnit.Framework;
+using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Data;
 using OSPSuite.Helpers;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public class DataColumnXmlSerializerSpecs : ModellingXmlSerializerBaseSpecs
    {

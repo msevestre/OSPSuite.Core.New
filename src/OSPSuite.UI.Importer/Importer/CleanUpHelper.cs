@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Reflection;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    static class CleanUpHelper
    {

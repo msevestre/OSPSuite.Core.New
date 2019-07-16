@@ -5,7 +5,7 @@ using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Data;
 using OSPSuite.Helpers;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public abstract class concern_for_DataRepositoryXmlSerializer : ModellingXmlSerializerBaseSpecs
    {

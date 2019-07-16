@@ -1,7 +1,6 @@
 ﻿using OSPSuite.Core.Journal;
-using OSPSuite.Infrastructure.Serialization;
 
-namespace OSPSuite.Infrastructure.Journal
+namespace OSPSuite.Infrastructure.Serialization.Journal
 {
    public class JournalDatabase : Database<JournalDatabase>
    {

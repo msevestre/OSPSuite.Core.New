@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Commands.Core;
+using OSPSuite.Helpers;
 
 namespace OSPSuite.Core.Commands
 {

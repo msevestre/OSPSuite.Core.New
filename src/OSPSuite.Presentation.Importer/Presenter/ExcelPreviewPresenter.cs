@@ -1,8 +1,9 @@
 ﻿using System.Data;
 using System.Drawing;
-using OSPSuite.Presentation.Views.Importer;
+using OSPSuite.Presentation.Presenters;
+using OSPSuite.Presentation.View;
 
-namespace OSPSuite.Presentation.Presenters.Importer
+namespace OSPSuite.Presentation.Presenter
 {
    public interface IExcelPreviewPresenter : IDisposablePresenter
    {

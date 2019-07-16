@@ -2,7 +2,7 @@
 using OSPSuite.Core.Domain;
 using OSPSuite.Helpers;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public class ObjectBaseXmlSerializerSpecs : ModellingXmlSerializerBaseSpecs
    {

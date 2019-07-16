@@ -25,6 +25,7 @@ namespace OSPSuite.Core
       public virtual void Clear()
       {
          ProjectIsReadOnly = false;
+         //TODO   _journalSession.Close();
          ReleaseLock();
          _project = null;
          Journal = null;

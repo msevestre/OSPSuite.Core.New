@@ -2,7 +2,7 @@
 using OSPSuite.Core.Comparison;
 using OSPSuite.Helpers;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public class ComparerSettingsXmlSerializerSpecs : ModellingXmlSerializerBaseSpecs
    {

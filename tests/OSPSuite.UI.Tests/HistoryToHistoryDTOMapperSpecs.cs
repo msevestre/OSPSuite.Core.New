@@ -4,10 +4,10 @@ using NUnit.Framework;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Commands.Core;
+using OSPSuite.Helpers;
 using OSPSuite.Presentation.DTO.Commands;
 using OSPSuite.Presentation.Mappers;
 using OSPSuite.Presentation.Presenters.Commands;
-using OSPSuite.UI.Helpers;
 using OSPSuite.UI.Mappers;
 
 namespace OSPSuite.UI

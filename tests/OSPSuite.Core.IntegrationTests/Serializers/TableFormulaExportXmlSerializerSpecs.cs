@@ -7,7 +7,7 @@ using OSPSuite.Core.Serialization.SimModel;
 using OSPSuite.Core.Serialization.SimModel.DTO;
 using OSPSuite.Core.Serialization.SimModel.Serializer;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public abstract class concern_for_TableFormulaExportXmlSerializer : ContextSpecification<TableFormulaExportXmlSerializer>
    {

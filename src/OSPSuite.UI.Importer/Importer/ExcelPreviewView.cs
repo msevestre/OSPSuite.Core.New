@@ -6,11 +6,12 @@ using System.Windows.Forms;
 using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.XtraGrid.Views.Grid.ViewInfo;
 using OSPSuite.Assets;
-using OSPSuite.Presentation.Presenters.Importer;
-using OSPSuite.Presentation.Views.Importer;
+using OSPSuite.Presentation.Presenter;
+using OSPSuite.Presentation.View;
+using OSPSuite.UI.Views;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    public partial class ExcelPreviewView : BaseModalView, IExcelPreviewView
    {

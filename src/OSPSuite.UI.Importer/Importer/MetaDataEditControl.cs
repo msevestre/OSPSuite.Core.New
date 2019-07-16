@@ -18,7 +18,7 @@ using OSPSuite.Presentation.Extensions;
 using OSPSuite.UI.Controls;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    public partial class MetaDataEditControl : XtraUserControl, IDataEditControl
    {

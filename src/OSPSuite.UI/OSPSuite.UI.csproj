@@ -20,7 +20,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Services\MagnifierCursor.cur" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Include="..\..\SolutionInfo.cs" Link="Properties\SolutionInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Services\MagnifierCursor.cur" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using OSPSuite.Utility.Extensions;
 using OSPSuite.Core.Commands;
 using OSPSuite.Core.Diagram;
 using OSPSuite.Core.Journal;
+using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Infrastructure.Journal.Queries
+namespace OSPSuite.Infrastructure.Serialization.Journal.Queries
 {
    public class AllJournalDiagrams : IQuery<IEnumerable<JournalDiagram>>
    {

@@ -6,7 +6,6 @@ using DevExpress.Utils;
 using DevExpress.Utils.Menu;
 using DevExpress.XtraEditors;
 using DevExpress.XtraEditors.Controls;
-using DevExpress.XtraGrid;
 using DevExpress.XtraGrid.Menu;
 using DevExpress.XtraGrid.Views.Base;
 using DevExpress.XtraGrid.Views.Grid;
@@ -14,11 +13,11 @@ using DevExpress.XtraGrid.Views.Grid.ViewInfo;
 using OSPSuite.Assets;
 using OSPSuite.Core.Importer;
 using OSPSuite.Core.Importer.Mappers;
-using OSPSuite.Presentation.Services.Importer;
+using OSPSuite.Presentation.Services;
 using OSPSuite.UI.Controls;
 using OSPSuite.UI.Services;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    public class MappingCompletedEventArgs : EventArgs
    {

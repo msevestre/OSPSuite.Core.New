@@ -2,7 +2,7 @@ using System;
 using OSPSuite.Core.Domain;
 using OSPSuite.Utility.Container;
 
-namespace OSPSuite.Helpers
+namespace OSPSuite.Core.Serializers
 {
    public abstract class MiniEnvironmentSerializerBaseSpecs : ModellingXmlSerializerBaseSpecs
    {

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
-using OSPSuite.Utility;
 using NHibernate;
 using OSPSuite.Assets;
+using OSPSuite.Utility;
 
-namespace OSPSuite.Infrastructure.Services
+namespace OSPSuite.Infrastructure.Serialization.Services
 {
    public interface ISessionManager
    {

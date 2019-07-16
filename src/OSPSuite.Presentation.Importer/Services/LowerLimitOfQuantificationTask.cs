@@ -2,7 +2,7 @@
 using OSPSuite.Core.Importer;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Presentation.Services.Importer
+namespace OSPSuite.Presentation.Services
 {
    public interface ILowerLimitOfQuantificationTask
    {

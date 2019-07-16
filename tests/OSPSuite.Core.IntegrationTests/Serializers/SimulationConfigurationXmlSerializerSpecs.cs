@@ -1,11 +1,11 @@
-﻿using OSPSuite.Utility.Container;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Builder;
 using OSPSuite.Core.Domain.Formulas;
 using OSPSuite.Helpers;
+using OSPSuite.Utility.Container;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public class SimulationConfigurationXmlSerializerSpecs : ModellingXmlSerializerBaseSpecs
    {

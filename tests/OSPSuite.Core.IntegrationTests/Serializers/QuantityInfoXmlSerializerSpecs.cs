@@ -5,7 +5,7 @@ using OSPSuite.Core.Domain.Data;
 using OSPSuite.Core.Serialization.Xml;
 using OSPSuite.Helpers;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public class QuantityInfoXmlSerializerSpecs : ModellingXmlSerializerBaseSpecs
    {

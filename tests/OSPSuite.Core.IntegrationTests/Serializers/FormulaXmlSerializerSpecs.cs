@@ -3,7 +3,7 @@ using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Formulas;
 using OSPSuite.Helpers;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public class FormulaXmlSerializerSpecs : MiniEnvironmentSerializerBaseSpecs
       //Use ExplicitFormula instead of ConstantFormula, because behaviour of ObjectPaths is overwritten in ConstantFormula

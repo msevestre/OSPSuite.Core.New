@@ -7,7 +7,7 @@ using OSPSuite.Core.Domain.Formulas;
 using OSPSuite.Helpers;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.DiffBuilders
 {
    public class When_comparing_two_start_value_building_blocks : concern_for_ObjectComparer
    {

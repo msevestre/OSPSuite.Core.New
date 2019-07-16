@@ -1,11 +1,11 @@
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Serializer.Xml;
 using OSPSuite.Core.Domain.UnitSystem;
 using OSPSuite.Core.Serialization;
 using OSPSuite.Core.Serialization.Xml;
+using OSPSuite.Serializer.Xml;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public abstract class concern_for_BaseDimensionRepresentationXmlSerializer : ContextSpecification<IXmlSerializer<SerializationContext>>
    {

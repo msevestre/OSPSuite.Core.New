@@ -1,6 +1,6 @@
 using System;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    /// <summary>
    /// Handler definition for IsDataValidChange event.

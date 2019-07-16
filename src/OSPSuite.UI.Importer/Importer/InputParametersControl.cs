@@ -8,7 +8,7 @@ using DevExpress.XtraLayout;
 using OSPSuite.Assets;
 using OSPSuite.Core.Importer;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    public partial class InputParametersControl : XtraUserControl
    {

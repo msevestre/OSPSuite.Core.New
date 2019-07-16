@@ -8,12 +8,12 @@ using DevExpress.XtraGrid.Columns;
 using OSPSuite.Assets;
 using OSPSuite.Core.Importer;
 using OSPSuite.Core.Importer.Mappers;
+using OSPSuite.Presentation.Presenter;
 using OSPSuite.Presentation.Presenters.Charts;
-using OSPSuite.Presentation.Presenters.Importer;
-using OSPSuite.Presentation.Services.Importer;
+using OSPSuite.Presentation.Services;
 using OSPSuite.UI.Extensions;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    public partial class ImportDataTableControl : XtraUserControl
    {

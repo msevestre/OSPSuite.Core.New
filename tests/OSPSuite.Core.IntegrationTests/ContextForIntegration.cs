@@ -3,7 +3,6 @@ using System.IO;
 using Castle.Facilities.TypedFactory;
 using FakeItEasy;
 using OSPSuite.BDDHelper;
-using OSPSuite.Core;
 using OSPSuite.Core.Commands;
 using OSPSuite.Core.Converter.v5_2;
 using OSPSuite.Core.Domain;
@@ -14,17 +13,16 @@ using OSPSuite.Core.Serialization;
 using OSPSuite.Core.Serialization.Exchange;
 using OSPSuite.Core.Serialization.Xml;
 using OSPSuite.Core.Services;
-using OSPSuite.Engine;
+using OSPSuite.Helpers;
 using OSPSuite.Infrastructure;
 using OSPSuite.Infrastructure.Container.Castle;
-using OSPSuite.Infrastructure.Services;
 using OSPSuite.Utility.Collections;
 using OSPSuite.Utility.Compression;
 using OSPSuite.Utility.Container;
 using OSPSuite.Utility.Events;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Helpers
+namespace OSPSuite.Core
 {
    [IntegrationTests]
    public abstract class ContextForIntegration<T> : ContextSpecification<T>

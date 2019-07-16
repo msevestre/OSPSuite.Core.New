@@ -4,7 +4,7 @@ using OSPSuite.Core.Domain.Builder;
 using OSPSuite.Core.Domain.UnitSystem;
 using OSPSuite.Helpers;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public class MoleculeStartValueXmlSerializerSpecs : ModellingXmlSerializerBaseSpecs
    {

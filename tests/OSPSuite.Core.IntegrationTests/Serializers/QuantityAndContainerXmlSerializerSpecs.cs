@@ -3,7 +3,7 @@ using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Formulas;
 using OSPSuite.Helpers;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public class QuantityAndContainerXmlSerializerSpecs : ModellingXmlSerializerBaseSpecs
    {

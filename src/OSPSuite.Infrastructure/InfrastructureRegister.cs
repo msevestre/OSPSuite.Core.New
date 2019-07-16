@@ -1,6 +1,4 @@
 ﻿using OSPSuite.Core;
-using OSPSuite.Core.Reporting;
-using OSPSuite.Infrastructure.Services;
 using OSPSuite.Utility.Container;
 
 namespace OSPSuite.Infrastructure
@@ -12,12 +10,8 @@ namespace OSPSuite.Infrastructure
          container.AddScanner(scan =>
          {
             scan.AssemblyContainingType<InfrastructureRegister>();
-            scan.ExcludeType<ReportTemplateRepository>();
-
             scan.WithConvention(new OSPSuiteRegistrationConvention(registerConcreteType: true));
          });
-
-         container.Register<IReportTemplateRepository, ReportTemplateRepository>(LifeStyle.Singleton);
       }
    }
 }

@@ -7,7 +7,7 @@ using OSPSuite.Core.Services;
 using OSPSuite.Infrastructure.Serialization.ORM.MetaData;
 using OSPSuite.Utility.Events;
 
-namespace OSPSuite.Infrastructure.Services
+namespace OSPSuite.Infrastructure.Serialization.Services
 {
    public class HistoryTask: IHistoryTask
    {

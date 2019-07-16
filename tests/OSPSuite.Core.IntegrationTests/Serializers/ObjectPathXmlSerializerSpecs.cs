@@ -1,9 +1,9 @@
-using OSPSuite.Utility.Container;
 using NUnit.Framework;
 using OSPSuite.Core.Domain;
 using OSPSuite.Helpers;
+using OSPSuite.Utility.Container;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.Serializers
 {
    public class ObjectPathXmlSerializerSpecs : ModellingXmlSerializerBaseSpecs
    {

@@ -1,9 +1,9 @@
-using OSPSuite.Utility;
-using SmartXLS;
 using OSPSuite.Core.Commands.Core;
 using OSPSuite.Core.Services;
+using OSPSuite.Utility;
+using SmartXLS;
 
-namespace OSPSuite.Infrastructure.Services
+namespace OSPSuite.Infrastructure.Export
 {
    internal static class SheetIndex
    {

@@ -8,10 +8,10 @@ using DevExpress.XtraEditors.Controls;
 using DevExpress.XtraLayout;
 using OSPSuite.Assets;
 using OSPSuite.Core.Importer;
-using OSPSuite.Presentation.Services.Importer;
+using OSPSuite.Presentation.Services;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.UI.Views.Importer
+namespace OSPSuite.UI.Importer
 {
    public partial class SetUnitView : XtraForm
    {

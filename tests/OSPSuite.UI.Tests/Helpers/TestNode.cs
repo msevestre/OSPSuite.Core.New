@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using OSPSuite.Presentation.Nodes;
 
 namespace OSPSuite.UI.Helpers

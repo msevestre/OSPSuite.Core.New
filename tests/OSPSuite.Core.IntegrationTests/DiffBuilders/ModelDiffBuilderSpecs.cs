@@ -1,10 +1,10 @@
 ﻿using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility.Container;
 using OSPSuite.Core.Domain;
 using OSPSuite.Helpers;
+using OSPSuite.Utility.Container;
 
-namespace OSPSuite.Core
+namespace OSPSuite.Core.DiffBuilders
 {
    public class When_comparing_models_with_different_parameters_values : concern_for_ObjectComparer
    {
