@@ -3,9 +3,8 @@ using System.IO;
 using System.Xml.Linq;
 using OSPSuite.Core.Domain.Data;
 using OSPSuite.Core.Domain.UnitSystem;
-using OSPSuite.Core.Serialization.Xml;
 
-namespace OSPSuite.Core.Serialization
+namespace OSPSuite.Core.Serialization.Xml
 {
    public interface IDataPersistor
    {
