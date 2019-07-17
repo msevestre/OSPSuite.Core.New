@@ -1,4 +1,3 @@
-using System.Windows.Forms;
 using DevExpress.XtraBars;
 using OSPSuite.Core;
 using OSPSuite.Presentation.MenuAndBars;
@@ -9,10 +8,12 @@ namespace OSPSuite.UI.Mappers
    public abstract class MenuBarItemToBarItemMapperBase
    {
       protected readonly IStartOptions _startOptions;
+      private readonly IKeysToWindowsKeysMapper _keysMapper;
 
-      protected MenuBarItemToBarItemMapperBase(IStartOptions startOptions)
+      protected MenuBarItemToBarItemMapperBase(IStartOptions startOptions, IKeysToWindowsKeysMapper keysMapper)
       {
          _startOptions = startOptions;
+         _keysMapper = keysMapper;
       }
 
       protected void UpdateBarButtonItem(IMenuBarItem menuBarItem, BarItem barItem)
@@ -24,7 +25,7 @@ namespace OSPSuite.UI.Mappers
          barItem.Enabled = menuBarItem.Enabled;
          barItem.UpdateIcon(menuBarItem.Icon);
 
-         //TODO barItem.ItemShortcut = new BarShortcut(menuBarItem.Shortcut);
+         barItem.ItemShortcut = new BarShortcut(_keysMapper.MapFrom(menuBarItem.Shortcut));
          menuBarItem.EnabledChanged += (value => barItem.Enabled = value);
 
          menuBarItem.VisibilityChanged += (value => barItem.Visibility = value ? BarItemVisibility.Always : BarItemVisibility.Never);
@@ -33,7 +34,7 @@ namespace OSPSuite.UI.Mappers
 
    public abstract class MenuBarButtonToBarItemMapperBase : MenuBarItemToBarItemMapperBase
    {
-      protected MenuBarButtonToBarItemMapperBase(IStartOptions startOptions) : base(startOptions)
+      protected MenuBarButtonToBarItemMapperBase(IStartOptions startOptions, IKeysToWindowsKeysMapper keysMapper) : base(startOptions, keysMapper)
       {
       }
 

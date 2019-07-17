@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-//TODO using System.Windows.Forms;
 using OSPSuite.Assets;
 using OSPSuite.Core;
 using OSPSuite.Core.Chart;
@@ -37,19 +36,19 @@ namespace OSPSuite.Presentation.Presenters.Charts
       CurveChart Chart { get; }
 
       /// <summary>
-      ///    Reloads xyData of Chart and refreshs display of Chart.
+      ///    Reloads xyData of Chart and refreshes display of Chart.
       /// </summary>
       void Refresh();
 
       /// <summary>
       ///    Event when something is dragged to Control. EventHandler should set Effect to Move if Drag is allowed.
       /// </summary>
-    // TODO   event DragEventHandler DragOver;
+      event EventHandler<IDragEvent> DragOver;
 
       /// <summary>
       ///    Event when something is dropped onto Control. EventHandler should set Effect.
       /// </summary>
-    // TODO   event DragEventHandler DragDrop;
+      event EventHandler<IDragEvent> DragDrop;
 
       /// <summary>
       ///    This Property is for internal use only and should not be used by an application directly.
@@ -171,6 +170,10 @@ namespace OSPSuite.Presentation.Presenters.Charts
       void Edit(CurveChart chart, ChartFontAndSizeSettings displayChartFontAndSizeSettings);
 
       void Clear();
+
+      void OnDragDrop(IDragEvent dropEvent);
+
+      void OnDragOver(IDragEvent dragEvent);
    }
 
    public class ChartDisplayPresenter : AbstractPresenter<IChartDisplayView, IChartDisplayPresenter>, IChartDisplayPresenter
@@ -187,6 +190,8 @@ namespace OSPSuite.Presentation.Presenters.Charts
       private bool _isLLOQVisible;
       private ChartFontAndSizeSettings _displayChartFontAndSizeSettings;
       public Action ExportToPDF { get; set; }
+      public event EventHandler<IDragEvent> DragOver = delegate { };
+      public event EventHandler<IDragEvent> DragDrop = delegate { };
 
       public Action<int> HotTracked
       {
@@ -237,6 +242,10 @@ namespace OSPSuite.Presentation.Presenters.Charts
          Chart = null;
       }
 
+      public void OnDragDrop(IDragEvent dropEvent) => DragDrop(this, dropEvent);
+
+      public void OnDragOver(IDragEvent dragEvent) => DragOver(this, dragEvent);
+
       public void Refresh()
       {
          updateChart();
@@ -247,19 +256,7 @@ namespace OSPSuite.Presentation.Presenters.Charts
          _quickCurveBinderCache.Clear();
          _curveBinders.Each(addCurvesToQuickCacheAdapter);
       }
-      //TODO 
-      //public event DragEventHandler DragOver
-      //{
-      //   add => View.DragOver += value;
-      //   remove => View.DragOver -= value;
-      //}
-
-      //public event DragEventHandler DragDrop
-      //{
-      //   add => View.DragDrop += value;
-      //   remove => View.DragDrop -= value;
-      //}
-
+     
       public void ResetVisibleRange()
       {
          Chart.Axes.Each(axis => axis.ResetRange());
@@ -515,6 +512,7 @@ namespace OSPSuite.Presentation.Presenters.Charts
       public void MoveSeriesInLegend(Curve movingCurve, Curve targetCurve)
       {
          Chart.MoveCurvesInLegend(movingCurve, targetCurve);
+         updateChart();
       }
 
       public void SetNoCurvesSelectedHint(string hint)

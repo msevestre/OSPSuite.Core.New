@@ -13,8 +13,8 @@ namespace OSPSuite.Presentation.Presenters.ContextMenus
             .WithId(menuBarItemId)
             .WithDescription(Captions.Journal.JournalViewDescription)
             .WithCommand<JournalVisibilityCommand>()
-            .WithIcon(ApplicationIcons.Journal);
-//TODO            .WithShortcut(Keys.Control | Keys.Shift | Keys.J);
+            .WithIcon(ApplicationIcons.Journal)
+            .WithShortcut(Keys.Control | Keys.Shift | Keys.J);
       }
 
       public static IMenuBarItem CreateJournalPage(MenuBarItemId menuBarItemId)
@@ -23,8 +23,8 @@ namespace OSPSuite.Presentation.Presenters.ContextMenus
             .WithId(menuBarItemId)
             .WithDescription(Captions.Journal.ToolTip.CreateJournalPage)
             .WithIcon(ApplicationIcons.PageAdd)
-            .WithCommand<CreateJournalPageUICommand>();
-         //TODO              .WithShortcut(Keys.Control | Keys.Alt | Keys.J)
+            .WithCommand<CreateJournalPageUICommand>()
+            .WithShortcut(Keys.Control | Keys.Alt | Keys.J);
 
       }
 

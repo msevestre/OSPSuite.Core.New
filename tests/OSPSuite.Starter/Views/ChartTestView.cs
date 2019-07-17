@@ -29,7 +29,7 @@ namespace OSPSuite.Starter.Views
          addObservationsButton.DropDownControl = _observationsDropDownControl;
          addCalculationsButton.DropDownControl = _calculationsDropDownControl;
 
-         _observationsDropDownControl.Items.Add(new DXMenuItem("With Arithmetic Deviation", (o, e) => OnEvent(createObservationsWithArithmenticDeviation)));
+         _observationsDropDownControl.Items.Add(new DXMenuItem("With Arithmetic Deviation", (o, e) => OnEvent(createObservationsWithArithmeticDeviation)));
          _observationsDropDownControl.Items.Add(new DXMenuItem("With Geometric Deviation", (o, e) => OnEvent(createObservationsWithGeometricDeviation)));
 
          _calculationsDropDownControl.Items.Add(new DXMenuItem("With Arithmetic Population Mean", (o, e) => OnEvent(createCalculationsWithArithmeticMean)));
@@ -93,7 +93,7 @@ namespace OSPSuite.Starter.Views
          _presenter.AddCalculationsWithArithmeticMean(NumberOfCalculations, PointsPerCalculation);
       }
 
-      private void createObservationsWithArithmenticDeviation()
+      private void createObservationsWithArithmeticDeviation()
       {
          _presenter.AddObservationsWithArithmeticDeviation(NumberOfObservations, PointsPerObservation, LLOQ);
       }

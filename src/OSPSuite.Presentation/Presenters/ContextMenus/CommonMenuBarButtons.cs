@@ -75,8 +75,8 @@ namespace OSPSuite.Presentation.Presenters.ContextMenus
          return CreateMenuButton.WithCaption(MenuNames.Help)
             .WithId(menuBarItemId)
             .WithIcon(ApplicationIcons.Help)
-            .WithCommand<ShowHelpCommand>();
-//TODO            .WithShortcut(Keys.F1);
+            .WithCommand<ShowHelpCommand>()
+            .WithShortcut(Keys.F1);
       }
    }
 }

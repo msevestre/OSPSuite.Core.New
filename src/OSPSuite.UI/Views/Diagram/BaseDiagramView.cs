@@ -70,7 +70,9 @@ namespace OSPSuite.UI.Views.Diagram
          set
          {
             var baseDiagramModel = value as DiagramModel;
-            if (baseDiagramModel == null) throw new InvalidTypeException(baseDiagramModel, typeof(DiagramModel));
+            if (baseDiagramModel == null)
+               throw new InvalidTypeException(baseDiagramModel, typeof(DiagramModel));
+
             _goView.Document = baseDiagramModel;
          }
       }

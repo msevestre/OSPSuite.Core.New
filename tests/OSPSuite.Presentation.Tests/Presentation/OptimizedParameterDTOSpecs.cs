@@ -1,6 +1,6 @@
-﻿using OSPSuite.BDDHelper;
+﻿using DevExpress.XtraEditors.DXErrorProvider;
+using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-//using DevExpress.XtraEditors.DXErrorProvider;
 using OSPSuite.Assets;
 using OSPSuite.Presentation.DTO;
 using OSPSuite.Presentation.DTO.ParameterIdentifications;
@@ -39,29 +39,28 @@ namespace OSPSuite.Presentation
 
    public class When_retrieving_the_error_info_defined_for_an_optimized_parameter_dto : concern_for_OptimizedParameterDTO
    {
-      //TODO 
-//      private ErrorInfo _errorInfo;
-//
-//      protected override void Context()
-//      {
-//         base.Context();
-//         _errorInfo = new ErrorInfo();
-//      }
-//
-//      [Observation]
-//      public void should_return_the_ok_image_if_the_value_is_not_close_to_the_boundaries()
-//      {
-//         sut.OptimalValue.Value = 15;
-//         sut.GetError(_errorInfo);
-//         _errorInfo.ErrorText.ShouldBeEmpty();
-//      }
-//
-//      [Observation]
-//      public void should_return_the_warning_image_if_the_value_is_not_close_to_the_boundaries()
-//      {
-//         sut.OptimalValue.Value = 10.05;
-//         sut.GetError(_errorInfo);
-//         _errorInfo.ErrorText.ShouldBeEqualTo(Warning.OptimizedValueIsCloseToBoundary);
-//      }
+      private ErrorInfo _errorInfo;
+
+      protected override void Context()
+      {
+         base.Context();
+         _errorInfo = new ErrorInfo();
+      }
+
+      [Observation]
+      public void should_return_the_ok_image_if_the_value_is_not_close_to_the_boundaries()
+      {
+         sut.OptimalValue.Value = 15;
+         sut.GetError(_errorInfo);
+         _errorInfo.ErrorText.ShouldBeEmpty();
+      }
+
+      [Observation]
+      public void should_return_the_warning_image_if_the_value_is_not_close_to_the_boundaries()
+      {
+         sut.OptimalValue.Value = 10.05;
+         sut.GetError(_errorInfo);
+         _errorInfo.ErrorText.ShouldBeEqualTo(Warning.OptimizedValueIsCloseToBoundary);
+      }
    }
 }

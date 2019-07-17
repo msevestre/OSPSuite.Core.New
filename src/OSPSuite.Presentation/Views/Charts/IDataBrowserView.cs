@@ -16,9 +16,5 @@ namespace OSPSuite.Presentation.Views.Charts
       /// Returns all selected <see cref="DataColumnDTO"/> and their descendants.
       /// </summary>
       IReadOnlyList<DataColumnDTO> SelectedDescendantColumns { get; }
-
-      //TODO 
-//      event DragEventHandler DragOver;
-//      event DragEventHandler DragDrop;
    }
 }

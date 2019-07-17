@@ -1,11 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using OSPSuite.Core;
+using OSPSuite.Core.Serialization;
+using OSPSuite.Presentation.Settings;
 using OSPSuite.Utility;
 using OSPSuite.Utility.Collections;
-using OSPSuite.Core;
-using OSPSuite.Core.Serialization.Xml;
-//TODO using OSPSuite.Presentation.Serialization;
-using OSPSuite.Presentation.Settings;
 
 namespace OSPSuite.Presentation.Charts
 {
@@ -16,13 +15,14 @@ namespace OSPSuite.Presentation.Charts
    public class ChartLayoutTemplateRepository : StartableRepository<ChartEditorLayoutTemplate>, IChartLayoutTemplateRepository
    {
       private readonly IApplicationConfiguration _configuration;
-      private readonly ICache<string, ChartEditorLayoutTemplate> _allChartLayoutTemplate = new Cache<string, ChartEditorLayoutTemplate>(x => x.Name);
-      //TODO       private readonly DataPersistor _settingsPersistor;
+      private readonly IDataPersistor _dataPersistor;
 
-      public ChartLayoutTemplateRepository(IApplicationConfiguration configuration, IOSPSuiteXmlSerializerRepository modellingXmlSerializerRepository)
+      private readonly ICache<string, ChartEditorLayoutTemplate> _allChartLayoutTemplate = new Cache<string, ChartEditorLayoutTemplate>(x => x.Name);
+
+      public ChartLayoutTemplateRepository(IApplicationConfiguration configuration, IDataPersistor dataPersistor)
       {
          _configuration = configuration;
-         //TODO          _settingsPersistor = new DataPersistor(modellingXmlSerializerRepository);
+         _dataPersistor = dataPersistor;
       }
 
       public override IEnumerable<ChartEditorLayoutTemplate> All()
@@ -37,8 +37,8 @@ namespace OSPSuite.Presentation.Charts
          if (!directory.Exists) return;
          foreach (var fileInfo in directory.GetFiles("*.xml", SearchOption.TopDirectoryOnly))
          {
-            //TODO             var chartEditorSettings = _settingsPersistor.Load<ChartEditorAndDisplaySettings>(fileInfo.FullName);
-            //TODO addTemplate(FileHelper.FileNameFromFileFullPath(fileInfo.FullName), chartEditorSettings);
+            var chartEditorSettings = _dataPersistor.Load<ChartEditorAndDisplaySettings>(fileInfo.FullName);
+            addTemplate(FileHelper.FileNameFromFileFullPath(fileInfo.FullName), chartEditorSettings);
          }
       }
 

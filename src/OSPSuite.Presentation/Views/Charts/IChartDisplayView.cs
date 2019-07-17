@@ -22,10 +22,6 @@ namespace OSPSuite.Presentation.Views.Charts
       void SetDockStyle(Dock dockStyle);
       void SetFontAndSizeSettings(ChartFontAndSizeSettings fontAndSizeSettings);
 
-      //TODO 
-//      event DragEventHandler DragOver;
-//      event DragEventHandler DragDrop;
-
       /// <summary>
       ///    Re orders the legend according to given index
       /// </summary>

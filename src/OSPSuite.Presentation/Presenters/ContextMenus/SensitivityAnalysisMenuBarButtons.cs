@@ -11,8 +11,8 @@ namespace OSPSuite.Presentation.Presenters.ContextMenus
       {
          return SensitivityAnalysisContextMenuItems.CreateSensitivityAnalysis()
             .WithCaption(MenuNames.CreateSensitivityAnalysis)
-            .WithId(menuBarItemId);
-            //TODO .WithShortcut(Keys.Control | Keys.Alt | Keys.Y);
+            .WithId(menuBarItemId)
+            .WithShortcut(Keys.Control | Keys.Alt | Keys.Y);
       }
 
       public static IMenuBarButton SensitivityAnalysisFeedbackView(MenuBarItemId menuBarItemId)
@@ -30,7 +30,7 @@ namespace OSPSuite.Presentation.Presenters.ContextMenus
             .WithId(menuBarItemId)
             .WithDescription(MenuDescriptions.RunSensitivityAnalysis)
             .WithIcon(ApplicationIcons.Run)
-            //TODO      .WithShortcut(Keys.F7)
+            .WithShortcut(Keys.F7)
             .WithCommand<RunSensitivityAnalysisUICommand>();
       }
 
@@ -40,8 +40,8 @@ namespace OSPSuite.Presentation.Presenters.ContextMenus
             .WithId(menuBarItemId)
             .WithDescription(MenuDescriptions.StopSensitivityanalysis)
             .WithIcon(ApplicationIcons.Stop)
-            .WithCommand<StopSensitivityAnalysisUICommand>();
-         // TODO              .WithShortcut(Keys.Shift | Keys.F7)
+            .WithCommand<StopSensitivityAnalysisUICommand>()
+            .WithShortcut(Keys.Shift | Keys.F7);
 
       }
 

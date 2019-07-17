@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using DevExpress.XtraEditors.DXErrorProvider;
 using OSPSuite.Assets;
 using OSPSuite.Core.Domain;
 
@@ -36,11 +37,10 @@ namespace OSPSuite.Presentation.DTO.ParameterIdentifications
          return Math.Abs(value - boundary) <= boundary * Constants.TOO_CLOSE_TO_BOUNDARY_FACTOR;
       }
 
-      //TODO 
-//      public void GetPropertyError(string propertyName, ErrorInfo info)
-//      {
-//         return;
-//      }
+      public override void GetPropertyError(string propertyName, ErrorInfo info)
+      {
+         return;
+      }
 
       public ApplicationIcon BoundaryCheckIcon
       {
@@ -53,14 +53,13 @@ namespace OSPSuite.Presentation.DTO.ParameterIdentifications
          }
       }
 
-      //TODO 
-//      public void GetError(ErrorInfo info)
-//      {
-//         if (!ValueIsCloseToBoundary) return;
-//
-//         info.ErrorText = Warning.OptimizedValueIsCloseToBoundary;
-//         info.ErrorType = ErrorType.Warning;
-//      }
+      public override void GetError(ErrorInfo info)
+      {
+         if (!ValueIsCloseToBoundary) return;
+
+         info.ErrorText = Warning.OptimizedValueIsCloseToBoundary;
+         info.ErrorType = ErrorType.Warning;
+      }
 
       public Image RangeImage { get; set; }
    }

@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using OSPSuite.Utility.Validation;
-//TODO using DevExpress.XtraEditors.DXErrorProvider;
+using DevExpress.XtraEditors.DXErrorProvider;
 using OSPSuite.Assets;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Data;
 
 namespace OSPSuite.Presentation.DTO
 {
-   public class MetaDataDTO : NonEmptyNameDTO //TODO , IDXDataErrorInfo
+   public class MetaDataDTO : NonEmptyNameDTO, IDXDataErrorInfo
    {
       public string Value { set; get; }
       public bool NameEditable { get; set; }
@@ -26,20 +26,17 @@ namespace OSPSuite.Presentation.DTO
          ValueReadOnly = false;
       }
 
-//      public virtual void GetPropertyError(string propertyName, ErrorInfo info)
-//      {
-//         this.UpdatePropertyError(propertyName, info);
-//      }
-//
-//      public virtual void GetError(ErrorInfo info)
-//      {
-//         this.UpdateError(info);
-//      }
-
-      public bool HasListOfValues
+      public virtual void GetPropertyError(string propertyName, ErrorInfo info)
       {
-         get { return ListOfValues != null && ListOfValues.Any(); }
+         this.UpdatePropertyError(propertyName, info);
       }
+
+      public virtual void GetError(ErrorInfo info)
+      {
+         this.UpdateError(info);
+      }
+
+      public bool HasListOfValues => ListOfValues != null && ListOfValues.Any();
 
       private string nameAlreadyExistsError(string newName)
       {

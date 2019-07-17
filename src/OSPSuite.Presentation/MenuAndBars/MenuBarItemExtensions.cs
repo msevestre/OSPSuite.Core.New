@@ -1,4 +1,5 @@
 ﻿using OSPSuite.Assets;
+using OSPSuite.Presentation.Core;
 
 namespace OSPSuite.Presentation.MenuAndBars
 {
@@ -28,7 +29,7 @@ namespace OSPSuite.Presentation.MenuAndBars
          return uiElement;
       }
 
-      public static T WithShortcut<T>(this T uiElement, string key) where T : IMenuBarItem
+      public static T WithShortcut<T>(this T uiElement, Keys key) where T : IMenuBarItem
       {
          uiElement.Shortcut = key;
          return uiElement;

@@ -21,7 +21,6 @@ namespace OSPSuite.Presentation.Views.Diagram
       void CenterAt<T>(T node);
       void Refresh();
       bool GridVisible { set; get;  }
-//TODO      Control Overview { set; }
       void Zoom(PointF currentLocation, float factor);
       void SetBackColor(Color color);
 

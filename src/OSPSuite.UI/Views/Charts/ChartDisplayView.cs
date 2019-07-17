@@ -17,6 +17,7 @@ using OSPSuite.Presentation.Presenters.ContextMenus;
 using OSPSuite.Presentation.Views;
 using OSPSuite.Presentation.Views.Charts;
 using OSPSuite.UI.Controls;
+using OSPSuite.UI.Core;
 using OSPSuite.UI.Extensions;
 using OSPSuite.UI.Services;
 using OSPSuite.Utility.Extensions;
@@ -156,17 +157,20 @@ namespace OSPSuite.UI.Views.Charts
       protected override void OnDragDrop(DragEventArgs dragDropEventArgs)
       {
          base.OnDragDrop(dragDropEventArgs);
+         _presenter.OnDragDrop(new DragEvent(dragDropEventArgs));
          var hitInfo = _chartControl.CalcHitInfo(chartControlPointFromDragDropEventArgs(dragDropEventArgs));
          if (!canDropMovingLegendHere(hitInfo)) return;
 
          var seriesBeingMoved = dragDropEventArgs.Data.GetData(typeof(Series)).DowncastTo<Series>();
          if (seriesBeingMoved != null)
             dropLegendHere(hitInfo.Series.DowncastTo<Series>(), seriesBeingMoved);
+
       }
 
       protected override void OnDragOver(DragEventArgs dragOverEventArgs)
       {
          base.OnDragOver(dragOverEventArgs);
+         _presenter.OnDragOver(new DragEvent(dragOverEventArgs));
 
          if (inLegendSeries(_chartControl.CalcHitInfo(chartControlPointFromDragDropEventArgs(dragOverEventArgs))))
          {

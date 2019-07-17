@@ -12,6 +12,7 @@ using OSPSuite.Core.Domain.Data;
 using OSPSuite.Core.Domain.UnitSystem;
 using OSPSuite.Core.Serialization.Xml;
 using OSPSuite.Core.Services;
+using OSPSuite.Presentation.Core;
 using OSPSuite.Presentation.DTO;
 using OSPSuite.Presentation.Extensions;
 using OSPSuite.Presentation.Mappers;
@@ -93,9 +94,7 @@ namespace OSPSuite.Starter.Presenters
 
          ChartDisplayPresenter.Edit(Chart);
 
-         // TODO
-//         ChartDisplayPresenter.DragOver += onChartDisplayDragOver;
-//         ChartEditorPresenter.DragOver += onChartDisplayDragOver;
+         ChartDisplayPresenter.DragOver += onChartDisplayDragOver;
 
          ReloadMenus();
       }
@@ -223,9 +222,9 @@ namespace OSPSuite.Starter.Presenters
          return true;
       }
 
-      private static void onChartDisplayDragOver(object sender, DragEventArgs e)
+      private static void onChartDisplayDragOver(object sender, IDragEvent e)
       {
-         e.Effect = e.Data.GetDataPresent(typeof(string)) ? DragDropEffects.Move : DragDropEffects.None;
+         e.SetEffectForType<string>();
       }
 
       public void SaveChartWithDataWithoutValues()

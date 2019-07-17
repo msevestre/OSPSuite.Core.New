@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <PackageReference Include="FakeItEasy" Version="5.1.1" />
-    <PackageReference Include="OSPSuite.BDDHelper" Version="4.0.0.1" />
   </ItemGroup>
 
   <ItemGroup>
