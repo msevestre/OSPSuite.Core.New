@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using NHibernate;
+using OSPSuite.Core.Events;
 using OSPSuite.Utility.Collections;
 using OSPSuite.Utility.Events;
 using OSPSuite.Utility.Extensions;
-using NHibernate;
-using OSPSuite.Core.Events;
 
-namespace OSPSuite.Infrastructure.Serialization.ORM.MetaData
+namespace OSPSuite.Infrastructure.ORM.MetaData
 {
    public interface ICommandMetaDataRepository : 
       IRepository<CommandMetaData>,

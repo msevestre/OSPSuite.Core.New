@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using OSPSuite.BDDHelper;
-using OSPSuite.BDDHelper.Extensions;
 using FakeItEasy;
 using OSPSuite.Assets;
+using OSPSuite.BDDHelper;
+using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Data;
 using OSPSuite.Presentation.Binders;
@@ -11,7 +11,7 @@ using OSPSuite.Presentation.Nodes;
 using OSPSuite.Presentation.Presenters.Nodes;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ObservedDataDragDropBinder : ContextSpecification<ObservedDataDragDropBinder>
    {

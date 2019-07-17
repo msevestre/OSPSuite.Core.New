@@ -1,6 +1,7 @@
-﻿using OSPSuite.Presentation.Presenters.Nodes;
+﻿using OSPSuite.Helpers;
+using OSPSuite.Presentation.Presenters.Nodes;
 
-namespace OSPSuite.Helpers
+namespace OSPSuite.Presentation.Helpers
 {
    public class SimulationNode : ObjectWithIdAndNameNode<ClassifiableSimulation>
    {

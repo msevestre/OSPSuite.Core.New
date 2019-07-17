@@ -1,9 +1,9 @@
-﻿using OSPSuite.BDDHelper;
-using FakeItEasy;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.Presentation.Core;
 using OSPSuite.Presentation.Presenters;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_BatchUpdate : ContextSpecification<BatchUpdate>
    {

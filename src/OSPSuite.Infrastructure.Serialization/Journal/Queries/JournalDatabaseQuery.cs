@@ -1,6 +1,6 @@
 ﻿using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Infrastructure.Serialization.Journal.Queries
+namespace OSPSuite.Infrastructure.Journal.Queries
 {
    public interface IQuery<out TResponse>
    {

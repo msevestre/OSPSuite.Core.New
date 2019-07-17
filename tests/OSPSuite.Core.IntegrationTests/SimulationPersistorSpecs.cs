@@ -8,6 +8,7 @@ using OSPSuite.Utility.Exceptions;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Services;
 using OSPSuite.Core.Domain.UnitSystem;
+using OSPSuite.Core.Helpers;
 using OSPSuite.Core.Serialization.Exchange;
 using OSPSuite.Core.Serialization.Xml;
 using OSPSuite.Core.Serializers;

@@ -10,7 +10,7 @@ using OSPSuite.Presentation.Presenters.ParameterIdentifications;
 using OSPSuite.Presentation.Views.ParameterIdentifications;
 using DataColumn = OSPSuite.Core.Domain.Data.DataColumn;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_WeightedDataRepositoryDataPresenter : ContextSpecification<WeightedDataRepositoryDataPresenter>
    {

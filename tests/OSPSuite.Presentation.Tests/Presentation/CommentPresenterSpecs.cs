@@ -4,7 +4,7 @@ using OSPSuite.Presentation.DTO.Commands;
 using OSPSuite.Presentation.Presenters.Commands;
 using OSPSuite.Presentation.Views.Commands;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_comment_presenter : ContextSpecification<ICommentPresenter>
    {

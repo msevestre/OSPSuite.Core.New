@@ -450,7 +450,7 @@ namespace OSPSuite.Presentation.Presenters.Diagram
             ms.Seek(0, SeekOrigin.Begin);
 
             Image image = Image.FromStream(ms);
-        //TODO     Clipboard.SetImage(image);
+            _view.CopyToClipboard(image);
          }
       }
 

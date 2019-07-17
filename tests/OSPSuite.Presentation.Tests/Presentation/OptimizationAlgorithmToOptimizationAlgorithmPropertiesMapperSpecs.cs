@@ -1,11 +1,11 @@
-﻿using OSPSuite.BDDHelper;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Domain.Mappers;
 using OSPSuite.Core.Domain.ParameterIdentifications;
 using OSPSuite.Core.Domain.ParameterIdentifications.Algorithms;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_OptimizationAlgorithmToOptimizationAlgorithmPropertiesMapper : ContextSpecification<OptimizationAlgorithmToOptimizationAlgorithmPropertiesMapper>
    {

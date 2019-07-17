@@ -9,9 +9,9 @@ using OSPSuite.Core.Domain.ParameterIdentifications;
 using OSPSuite.Helpers;
 using OSPSuite.Presentation.DTO.ParameterIdentifications;
 using OSPSuite.Presentation.Mappers.ParameterIdentifications;
-using OSPSuite.Presentation.Services.ParameterIdentifications;
+using OSPSuite.Presentation.Services;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ParameterIdentificationRunResultToRunResultDTOMapper : ContextSpecification<IParameterIdentificationRunResultToRunResultDTOMapper>
    {

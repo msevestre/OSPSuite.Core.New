@@ -2,7 +2,7 @@
 using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Presentation.Core;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_DefaultPresenterSettings : ContextSpecification<DefaultPresentationSettings>
    {

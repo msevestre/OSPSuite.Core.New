@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Domain;
 using OSPSuite.Presentation.Core;
 using OSPSuite.Presentation.Presenters;
 using OSPSuite.Presentation.Services;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_PresenterSettingsTask : ContextSpecification<IPresentationSettingsTask>
    {

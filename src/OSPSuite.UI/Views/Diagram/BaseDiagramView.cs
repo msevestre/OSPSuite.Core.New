@@ -25,7 +25,7 @@ namespace OSPSuite.UI.Views.Diagram
          base.InitializeResources();
 
          _goView.SelectionMoved += (o, e) => OnEvent(() => onSelectionMoved(o, e));
-         _goView.ObjectContextClicked += (o, e) => OnEvent(OnContextClicked,e);
+         _goView.ObjectContextClicked += (o, e) => OnEvent(OnContextClicked, e);
          _goView.ObjectSingleClicked += (o, e) => OnEvent(onSingleClicked, e);
       }
 
@@ -192,6 +192,11 @@ namespace OSPSuite.UI.Views.Diagram
       {
          _goView.PrintScale = _goView.DocScale;
          _goView.PrintPreview();
+      }
+
+      public void CopyToClipboard(Image image)
+      {
+         Clipboard.SetImage(image);
       }
    }
 

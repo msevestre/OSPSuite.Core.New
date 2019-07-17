@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using OSPSuite.BDDHelper;
-using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility.Extensions;
 using FakeItEasy;
 using OSPSuite.Assets;
+using OSPSuite.BDDHelper;
+using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Data;
 using OSPSuite.Core.Domain.Services;
@@ -15,8 +14,9 @@ using OSPSuite.Presentation.Presenters.Classifications;
 using OSPSuite.Presentation.Presenters.Nodes;
 using OSPSuite.Presentation.Presenters.ObservedData;
 using OSPSuite.Presentation.Views;
+using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ObservedDataInExplorerPresenter : ContextSpecification<IObservedDataInExplorerPresenter>
    {

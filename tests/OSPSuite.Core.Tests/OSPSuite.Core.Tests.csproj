@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -25,6 +25,12 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\OSPSuite.Core\OSPSuite.Core.csproj" />
     <ProjectReference Include="..\OSPSuite.HelpersForTests\OSPSuite.HelpersForTests.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OSPSuite.FuncParser">
+      <HintPath>..\..\lib\OSPSuite.FuncParser.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

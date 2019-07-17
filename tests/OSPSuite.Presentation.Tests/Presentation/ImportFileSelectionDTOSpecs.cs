@@ -2,7 +2,7 @@
 using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Presentation.DTO;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ImportFileSelectionDTO : ContextSpecification<ImportFileSelectionDTO>
    {

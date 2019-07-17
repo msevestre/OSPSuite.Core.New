@@ -9,7 +9,6 @@ using OSPSuite.Core.Domain.ParameterIdentifications;
 using OSPSuite.Core.Extensions;
 using OSPSuite.Core.Services.ParameterIdentifications;
 using OSPSuite.Presentation.Services.Charts;
-using OSPSuite.Presentation.Services.ParameterIdentifications;
 using OSPSuite.Presentation.Views.ParameterIdentifications;
 using OSPSuite.Utility.Extensions;
 

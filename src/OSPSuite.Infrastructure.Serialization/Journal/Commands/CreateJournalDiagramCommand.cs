@@ -2,7 +2,7 @@
 using OSPSuite.Core.Domain.Services;
 using OSPSuite.Core.Journal;
 
-namespace OSPSuite.Infrastructure.Serialization.Journal.Commands
+namespace OSPSuite.Infrastructure.Journal.Commands
 {
    public class CreateJournalDiagram
    {

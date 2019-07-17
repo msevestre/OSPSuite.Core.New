@@ -1,6 +1,6 @@
-﻿using OSPSuite.BDDHelper;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Commands;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Services;
@@ -8,7 +8,7 @@ using OSPSuite.Presentation.Core;
 using OSPSuite.Presentation.Presenters;
 using OSPSuite.Presentation.Services;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_EntityValidationTask : ContextSpecification<IEntityValidationTask>
    {

@@ -19,7 +19,7 @@ using OSPSuite.Presentation.Views.ObservedData;
 using OSPSuite.Utility.Extensions;
 using DataColumn = OSPSuite.Core.Domain.Data.DataColumn;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_DataRepositoryDataPresenter : ContextSpecification<DataRepositoryDataPresenter>
    {

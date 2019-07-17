@@ -1,7 +1,7 @@
 using System.Data;
 using System.Linq;
-using OSPSuite.BDDHelper;
 using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.Core.Chart.ParameterIdentifications;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.ParameterIdentifications;
@@ -10,7 +10,7 @@ using OSPSuite.Presentation.Presenters.ParameterIdentifications;
 using OSPSuite.Presentation.Services;
 using OSPSuite.Presentation.Views.ParameterIdentifications;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ParameterIdentificationCovarianceMatrixPresenter : ContextSpecification<ParameterIdentificationCovarianceAnalysisPresenter>
    {

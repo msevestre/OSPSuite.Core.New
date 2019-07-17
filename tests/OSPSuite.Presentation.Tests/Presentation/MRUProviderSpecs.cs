@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility;
-using FakeItEasy;
 using OSPSuite.Presentation.Services;
+using OSPSuite.Utility;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_MRUProvider : ContextSpecification<IMRUProvider>
    {

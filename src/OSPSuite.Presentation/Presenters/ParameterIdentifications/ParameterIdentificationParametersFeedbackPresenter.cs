@@ -9,7 +9,6 @@ using OSPSuite.Core.Extensions;
 using OSPSuite.Core.Services.ParameterIdentifications;
 using OSPSuite.Presentation.DTO;
 using OSPSuite.Presentation.DTO.ParameterIdentifications;
-using OSPSuite.Presentation.Services.ParameterIdentifications;
 using OSPSuite.Presentation.Views.ParameterIdentifications;
 
 namespace OSPSuite.Presentation.Presenters.ParameterIdentifications

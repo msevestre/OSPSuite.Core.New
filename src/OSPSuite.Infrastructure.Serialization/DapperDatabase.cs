@@ -7,11 +7,10 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using Dapper;
-using OSPSuite.Utility.Extensions;
 using OSPSuite.Core.Extensions;
-using OSPSuite.Infrastructure.Serialization.Journal;
+using OSPSuite.Infrastructure.Journal;
 
-namespace OSPSuite.Infrastructure.Serialization
+namespace OSPSuite.Infrastructure
 {
    [AttributeUsage(AttributeTargets.Property, AllowMultiple = true)]
    public class IgnorePropertyAttribute : Attribute

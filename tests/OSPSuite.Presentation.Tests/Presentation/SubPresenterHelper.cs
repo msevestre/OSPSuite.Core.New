@@ -1,11 +1,11 @@
 using System.Collections.Generic;
-using OSPSuite.Utility.Events;
 using FakeItEasy;
 using OSPSuite.Presentation.Core;
 using OSPSuite.Presentation.Presenters;
 using OSPSuite.Presentation.Views;
+using OSPSuite.Utility.Events;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public static class SubPresenterHelper
    {

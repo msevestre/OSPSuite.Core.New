@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
-using OSPSuite.Core;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.ParameterIdentifications;
 using OSPSuite.Core.Domain.Services;
@@ -13,7 +12,7 @@ using OSPSuite.Presentation.Mappers;
 using OSPSuite.Presentation.Presenters;
 using OSPSuite.Presentation.Views;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_SimulationParametersPresenter : ContextSpecification<ISimulationParametersPresenter>
    {

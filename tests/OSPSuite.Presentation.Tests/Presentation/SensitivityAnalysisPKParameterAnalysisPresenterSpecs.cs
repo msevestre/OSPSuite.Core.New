@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core;
 using OSPSuite.Core.Chart.SensitivityAnalyses;
 using OSPSuite.Core.Domain.PKAnalyses;
@@ -11,7 +11,7 @@ using OSPSuite.Presentation.Presenters.SensitivityAnalyses;
 using OSPSuite.Presentation.Services;
 using OSPSuite.Presentation.Views.SensitivityAnalyses;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_SensitivityAnalysisPKParameterAnalysisPresenter : ContextSpecification<SensitivityAnalysisPKParameterAnalysisPresenter>
    {

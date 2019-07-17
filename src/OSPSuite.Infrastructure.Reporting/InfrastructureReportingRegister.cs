@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using OSPSuite.Core.Reporting;
 using OSPSuite.Core.Services;
-using OSPSuite.Infrastructure.Services;
 using OSPSuite.TeXReporting.Builder;
 using OSPSuite.Utility.Container;
 using OSPSuite.Utility.Container.Conventions;

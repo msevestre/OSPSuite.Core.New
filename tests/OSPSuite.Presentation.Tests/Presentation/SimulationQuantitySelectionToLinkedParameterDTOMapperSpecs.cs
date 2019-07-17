@@ -1,13 +1,13 @@
-﻿using OSPSuite.BDDHelper;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Domain;
 using OSPSuite.Presentation.DTO;
 using OSPSuite.Presentation.DTO.ParameterIdentifications;
 using OSPSuite.Presentation.Mappers;
 using OSPSuite.Presentation.Mappers.ParameterIdentifications;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_SimulationQuantitySelectionToLinkedParameterDTOMapper : ContextSpecification<ISimulationQuantitySelectionToLinkedParameterDTOMapper>
    {

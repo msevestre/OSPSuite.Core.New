@@ -1,4 +1,4 @@
-﻿namespace OSPSuite.Infrastructure.Serialization.Journal.Commands
+﻿namespace OSPSuite.Infrastructure.Journal.Commands
 {
    public class UpdateJournalPage : JournalPagePayload
    {

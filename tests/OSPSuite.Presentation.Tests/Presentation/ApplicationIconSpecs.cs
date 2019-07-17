@@ -3,7 +3,7 @@ using OSPSuite.Assets;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ApplicationIcon : ContextSpecification<ApplicationIcon>
    {

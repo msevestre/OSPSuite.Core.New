@@ -1,12 +1,12 @@
-﻿using OSPSuite.BDDHelper;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Mappers;
 using OSPSuite.Presentation.DTO;
 using OSPSuite.Presentation.Mappers;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_QuantityToSimulationQuantitySelectionDTOMapper : ContextSpecification<IQuantityToSimulationQuantitySelectionDTOMapper>
    {

@@ -1,11 +1,11 @@
 ﻿using System.Drawing;
-using OSPSuite.BDDHelper;
 using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.Presentation.Presenters.ContextMenus;
 using OSPSuite.Presentation.Views;
 using OSPSuite.Presentation.Views.ContextMenus;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ContextMenu : ContextSpecification<IContextMenu>
    {

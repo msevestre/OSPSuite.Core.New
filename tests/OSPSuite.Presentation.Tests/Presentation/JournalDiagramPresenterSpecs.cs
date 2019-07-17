@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Drawing;
-using OSPSuite.BDDHelper;
 using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.Core.Diagram;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Events;
@@ -13,7 +13,7 @@ using OSPSuite.Presentation.Presenters.ContextMenus;
 using OSPSuite.Presentation.Presenters.Journal;
 using OSPSuite.Presentation.Views.Journal;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_JournalDiagramPresenter : ContextSpecification<JournalDiagramPresenter>
    {

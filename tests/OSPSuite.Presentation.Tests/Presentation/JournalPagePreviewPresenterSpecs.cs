@@ -1,12 +1,12 @@
-﻿using OSPSuite.BDDHelper;
-using FakeItEasy;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.Core.Journal;
 using OSPSuite.Core.Services;
 using OSPSuite.Presentation.DTO.Journal;
 using OSPSuite.Presentation.Presenters.Journal;
 using OSPSuite.Presentation.Views.Journal;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_JournalPagePreviewPresenter : ContextSpecification<IJournalPagePreviewPresenter>
    {

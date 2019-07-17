@@ -9,9 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="..\..\src\OSPSuite.Dimensions\OSPSuite.Dimensions.xml" Link="OSPSuite.Dimensions.xml">
+    <None Include="..\..\src\OSPSuite.Dimensions\OSPSuite.Dimensions.xml" Link="OSPSuite.Dimensions.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

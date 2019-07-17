@@ -9,7 +9,7 @@ using OSPSuite.Presentation.Presenters.Journal;
 using OSPSuite.Presentation.Views.Journal;
 using OSPSuite.Utility.Events;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_JournalPageEditorPresenter : ContextSpecification<IJournalPageEditorPresenter>
    {

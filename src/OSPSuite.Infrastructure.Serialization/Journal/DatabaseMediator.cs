@@ -1,8 +1,8 @@
-﻿using OSPSuite.Infrastructure.Serialization.Journal.Commands;
-using OSPSuite.Infrastructure.Serialization.Journal.Queries;
+﻿using OSPSuite.Infrastructure.Journal.Commands;
+using OSPSuite.Infrastructure.Journal.Queries;
 using OSPSuite.Utility.Container;
 
-namespace OSPSuite.Infrastructure.Serialization.Journal
+namespace OSPSuite.Infrastructure.Journal
 {
    public interface IDatabaseMediator
    {

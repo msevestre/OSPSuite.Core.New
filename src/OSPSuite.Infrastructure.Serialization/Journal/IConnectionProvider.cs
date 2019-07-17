@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using System.Data.SQLite;
 
-namespace OSPSuite.Infrastructure.Serialization.Journal
+namespace OSPSuite.Infrastructure.Journal
 {
    public interface IConnectionProvider
    {

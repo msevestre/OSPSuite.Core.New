@@ -1,7 +1,7 @@
-using OSPSuite.BDDHelper.Extensions;
 using MathNet.Numerics.LinearAlgebra;
+using OSPSuite.BDDHelper.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public static class MathNetExtensionsForSpecs
    {

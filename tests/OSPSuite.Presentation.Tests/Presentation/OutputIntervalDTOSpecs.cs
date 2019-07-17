@@ -1,14 +1,13 @@
-﻿using OSPSuite.BDDHelper;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility.Validation;
-using FakeItEasy;
-using OSPSuite.Core;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.UnitSystem;
 using OSPSuite.Helpers;
 using OSPSuite.Presentation.DTO;
+using OSPSuite.Utility.Validation;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_OutputIntervalDTO : ContextSpecification<OutputIntervalDTO>
    {

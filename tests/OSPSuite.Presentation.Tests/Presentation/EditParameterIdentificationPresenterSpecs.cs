@@ -1,6 +1,5 @@
-﻿using OSPSuite.BDDHelper;
-using OSPSuite.Utility.Extensions;
-using FakeItEasy;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.Core.Commands;
 using OSPSuite.Core.Commands.Core;
 using OSPSuite.Core.Domain;
@@ -12,8 +11,9 @@ using OSPSuite.Presentation.Presenters.ContextMenus;
 using OSPSuite.Presentation.Presenters.ParameterIdentifications;
 using OSPSuite.Presentation.Services;
 using OSPSuite.Presentation.Views.ParameterIdentifications;
+using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_EditParameterIdentificationPresenter : ContextSpecification<IEditParameterIdentificationPresenter>
    {

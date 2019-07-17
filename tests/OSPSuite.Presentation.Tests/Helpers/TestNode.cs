@@ -1,7 +1,7 @@
 using System;
 using OSPSuite.Presentation.Nodes;
 
-namespace OSPSuite.Helpers
+namespace OSPSuite.Presentation.Helpers
 {
    public class TestNode : AbstractNode<string>
    {

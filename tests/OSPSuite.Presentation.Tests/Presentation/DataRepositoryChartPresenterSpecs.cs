@@ -1,15 +1,13 @@
-﻿using OSPSuite.BDDHelper;
-using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.Core.Chart;
-using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Data;
 using OSPSuite.Core.Events;
 using OSPSuite.Presentation.Presenters.Charts;
 using OSPSuite.Presentation.Presenters.ObservedData;
 using OSPSuite.Presentation.Views.ObservedData;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_DataRepositoryChartPresenter : ContextSpecification<DataRepositoryChartPresenter>
    {

@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility.Collections;
-using FakeItEasy;
 using OSPSuite.Presentation.Nodes;
 using OSPSuite.Presentation.Presenters;
 using OSPSuite.Presentation.Presenters.ContextMenus;
+using OSPSuite.Utility.Collections;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ContextMenuFactory : ContextSpecification<IContextMenuFactory<ITreeNode>>
    {

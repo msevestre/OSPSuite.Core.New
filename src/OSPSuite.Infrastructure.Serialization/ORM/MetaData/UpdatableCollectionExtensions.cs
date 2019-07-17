@@ -2,7 +2,7 @@
 using System.Linq;
 using NHibernate;
 
-namespace OSPSuite.Infrastructure.Serialization.ORM.MetaData
+namespace OSPSuite.Infrastructure.ORM.MetaData
 {
    public static class UpdatableCollectionExtensions
    {

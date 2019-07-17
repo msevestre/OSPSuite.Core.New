@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Domain;
 using OSPSuite.Presentation.DTO;
 using OSPSuite.Presentation.Mappers;
 using OSPSuite.Presentation.Presenters;
 using OSPSuite.Presentation.Views;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_QuantityListPresenter : ContextSpecification<IQuantityListPresenter>
    {

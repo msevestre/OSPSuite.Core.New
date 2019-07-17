@@ -2,7 +2,7 @@
 using OSPSuite.Core.Journal;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Infrastructure.Serialization.Journal.Queries
+namespace OSPSuite.Infrastructure.Journal.Queries
 {
    public class AllJournalPages : IQuery<IEnumerable<JournalPage>>
    {

@@ -12,7 +12,7 @@ using OSPSuite.Presentation.Presenters.Charts;
 using OSPSuite.Presentation.Presenters.ParameterIdentifications;
 using OSPSuite.Presentation.Views.ParameterIdentifications;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ParameterIdentificationErrorHistoryFeedbackPresenter : ContextSpecification<IParameterIdentificationErrorHistoryFeedbackPresenter>
    {

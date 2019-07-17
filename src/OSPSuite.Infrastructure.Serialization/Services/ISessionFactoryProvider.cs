@@ -1,7 +1,7 @@
 ﻿using NHibernate;
 using NHibernate.Tool.hbm2ddl;
 
-namespace OSPSuite.Infrastructure.Serialization.Services
+namespace OSPSuite.Infrastructure.Services
 {
    public interface ISessionFactoryProvider
    {

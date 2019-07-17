@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.ParameterIdentifications;
 using OSPSuite.Core.Extensions;
@@ -11,7 +11,7 @@ using OSPSuite.Presentation.DTO;
 using OSPSuite.Presentation.DTO.ParameterIdentifications;
 using OSPSuite.Presentation.Mappers.ParameterIdentifications;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_CategorialRunModeToCategorialRunModeDTOMapper : ContextSpecification<ICategorialRunModeToCategorialRunModeDTOMapper>
    {

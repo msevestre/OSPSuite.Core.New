@@ -1,10 +1,10 @@
-﻿using OSPSuite.BDDHelper;
-using FakeItEasy;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.Core.Comparison;
 using OSPSuite.Presentation.Presenters.Comparisons;
 using OSPSuite.Presentation.Views.Comparisons;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ComparerSettingsPresenter : ContextSpecification<IComparerSettingsPresenter>
    {

@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility.Collections;
-using FakeItEasy;
-using OSPSuite.Core;
 using OSPSuite.Core.Commands;
 using OSPSuite.Core.Commands.Core;
 using OSPSuite.Core.Domain;
@@ -15,8 +13,9 @@ using OSPSuite.Helpers;
 using OSPSuite.Presentation.DTO;
 using OSPSuite.Presentation.Presenters.ObservedData;
 using OSPSuite.Presentation.Views.ObservedData;
+using OSPSuite.Utility.Collections;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_DataRepositoryMetaDataPresenter : ContextSpecification<DataRepositoryMetaDataPresenter>
    {

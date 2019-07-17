@@ -1,11 +1,11 @@
 ﻿using DevExpress.XtraEditors.DXErrorProvider;
+using OSPSuite.Assets;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Assets;
 using OSPSuite.Presentation.DTO;
 using OSPSuite.Presentation.DTO.ParameterIdentifications;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_OptimizedParameterDTO : ContextSpecification<OptimizedParameterDTO>
    {

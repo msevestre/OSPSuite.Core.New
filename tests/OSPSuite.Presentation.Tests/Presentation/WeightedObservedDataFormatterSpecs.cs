@@ -6,7 +6,7 @@ using OSPSuite.Helpers;
 using OSPSuite.Presentation.DTO.ParameterIdentifications;
 using OSPSuite.Presentation.Presenters.ParameterIdentifications;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_WeightedObservedDataFormatter : ContextSpecification<WeightedObservedDataFormatter>
    {

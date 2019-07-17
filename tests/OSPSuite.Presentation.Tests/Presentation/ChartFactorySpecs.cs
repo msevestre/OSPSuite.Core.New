@@ -1,7 +1,7 @@
-﻿using OSPSuite.BDDHelper;
-using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
+﻿using FakeItEasy;
 using NUnit.Framework;
+using OSPSuite.BDDHelper;
+using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Chart;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Data;
@@ -11,7 +11,7 @@ using OSPSuite.Core.Domain.UnitSystem;
 using OSPSuite.Presentation.Services;
 using IContainer = OSPSuite.Utility.Container.IContainer;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ChartFactory : ContextSpecification<ChartFactory>
    {

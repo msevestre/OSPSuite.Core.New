@@ -10,7 +10,7 @@ using OSPSuite.Presentation.DTO.Charts;
 using OSPSuite.Utility.Reflection;
 using OSPSuite.Utility.Validation;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_CurveDTO : ContextSpecification<CurveDTO>
    {

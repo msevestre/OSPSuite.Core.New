@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using OSPSuite.BDDHelper;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Data;
+using OSPSuite.Core.Helpers;
 using OSPSuite.Helpers;
 
 namespace OSPSuite.Core.Serializers

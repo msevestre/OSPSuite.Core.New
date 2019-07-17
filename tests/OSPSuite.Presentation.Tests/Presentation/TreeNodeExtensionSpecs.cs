@@ -1,8 +1,8 @@
-using OSPSuite.BDDHelper;
 using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.Presentation.Nodes;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
     public class When_adding_a_node_under_another_node : StaticContextSpecification
     {

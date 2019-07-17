@@ -4,10 +4,10 @@ using OSPSuite.Core.Domain.Services;
 using OSPSuite.Core.Events;
 using OSPSuite.Core.Extensions;
 using OSPSuite.Core.Services;
-using OSPSuite.Infrastructure.Serialization.ORM.MetaData;
+using OSPSuite.Infrastructure.ORM.MetaData;
 using OSPSuite.Utility.Events;
 
-namespace OSPSuite.Infrastructure.Serialization.Services
+namespace OSPSuite.Infrastructure.Services
 {
    public class HistoryTask: IHistoryTask
    {

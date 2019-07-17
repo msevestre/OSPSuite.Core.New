@@ -1,9 +1,9 @@
-﻿using OSPSuite.BDDHelper;
-using FakeItEasy;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.Presentation.Services;
 using OSPSuite.Presentation.UICommands;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_OpenMRUProjectCommand : ContextSpecification<OpenMRUProjectCommand>
    {

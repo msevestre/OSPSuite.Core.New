@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using OSPSuite.BDDHelper;
-using OSPSuite.BDDHelper.Extensions;
 using FakeItEasy;
 using OSPSuite.Assets;
+using OSPSuite.BDDHelper;
+using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Chart;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Services;
@@ -11,7 +11,7 @@ using OSPSuite.Presentation.Presenters.Charts;
 using OSPSuite.Presentation.Services.Charts;
 using OSPSuite.Presentation.Views;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ChartTemplateManagerPresenter : ContextSpecification<IChartTemplateManagerPresenter>
    {

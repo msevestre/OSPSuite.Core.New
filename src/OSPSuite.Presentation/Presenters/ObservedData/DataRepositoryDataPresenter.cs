@@ -65,7 +65,7 @@ namespace OSPSuite.Presentation.Presenters.ObservedData
 
       public void AddRow()
       {
-         var identificationsUsingObservedData = _editObservedDataTask.ParamterIdentificationsUsingDataRepository(_observedData);
+         var identificationsUsingObservedData = _editObservedDataTask.ParameterIdentificationsUsingDataRepository(_observedData);
          if (identificationsUsingObservedData.Any())
             throw new OSPSuiteException(Captions.ParameterIdentification.CannotAddObservedDataPointBeingUsedByParameterIdentification(_observedData.Name, identificationsUsingObservedData));
 

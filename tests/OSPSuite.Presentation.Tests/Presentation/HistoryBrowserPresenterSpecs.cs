@@ -12,7 +12,7 @@ using OSPSuite.Presentation.Presenters.Commands;
 using OSPSuite.Presentation.Services.Commands;
 using OSPSuite.Presentation.Views.Commands;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_HistoryBrowserPresenter : ContextSpecification<IHistoryBrowserPresenter>
    {

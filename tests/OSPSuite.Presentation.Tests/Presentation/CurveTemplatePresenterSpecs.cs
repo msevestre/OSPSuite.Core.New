@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Chart;
 using OSPSuite.Core.Commands.Core;
 using OSPSuite.Presentation.DTO.Charts;
@@ -9,7 +9,7 @@ using OSPSuite.Presentation.Presenters.Charts;
 using OSPSuite.Presentation.Services.Charts;
 using OSPSuite.Presentation.Views.Charts;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_CurveTemplatePresenter : ContextSpecification<CurveTemplatePresenter>
    {

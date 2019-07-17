@@ -3,7 +3,7 @@ using System.Data.Common;
 using System.Data.SQLite;
 using OSPSuite.Core.Extensions;
 
-namespace OSPSuite.Infrastructure.Serialization.Services
+namespace OSPSuite.Infrastructure.Services
 {
    public class SQLiteProjectCommandExecuter
    {

@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
-using OSPSuite.BDDHelper;
-using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility.Extensions;
 using FakeItEasy;
 using OSPSuite.Assets;
+using OSPSuite.BDDHelper;
+using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Journal;
 using OSPSuite.Presentation.Core;
@@ -16,8 +15,9 @@ using OSPSuite.Presentation.Presenters.Journal;
 using OSPSuite.Presentation.Regions;
 using OSPSuite.Presentation.Services;
 using OSPSuite.Presentation.Views.Journal;
+using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_JournalPresenter : ContextSpecification<IJournalPresenter>
    {

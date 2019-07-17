@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Comparison;
 using OSPSuite.Core.Domain;
 using OSPSuite.Presentation.DTO;
@@ -10,7 +10,7 @@ using OSPSuite.Presentation.Mappers;
 using OSPSuite.Presentation.Presenters.Comparisons;
 using OSPSuite.Presentation.Views.Comparisons;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ComparisonPresenter : ContextSpecification<IComparisonPresenter>
    {

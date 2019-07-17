@@ -1,10 +1,10 @@
-﻿using OSPSuite.BDDHelper;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility.Container;
-using FakeItEasy;
 using OSPSuite.Presentation.Regions;
+using OSPSuite.Utility.Container;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_RegionResolver : ContextSpecification<IRegionResolver>
    {

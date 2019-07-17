@@ -1,6 +1,6 @@
 ﻿using NHibernate;
 
-namespace OSPSuite.Infrastructure.Serialization.ORM.MetaData
+namespace OSPSuite.Infrastructure.ORM.MetaData
 {
    public interface IUpdatableFrom<T>
    {

@@ -5,7 +5,7 @@ using OSPSuite.Core.Journal;
 using OSPSuite.Presentation.DTO.Journal;
 using OSPSuite.Presentation.Mappers;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_JournalPageToJournalPageDTOMapper : ContextSpecification<IJournalPageToJournalPageDTOMapper>
    {

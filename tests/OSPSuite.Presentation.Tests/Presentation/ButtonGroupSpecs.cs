@@ -1,9 +1,9 @@
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Presentation.MenuAndBars;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
 
    public class When_adding_a_button_to_the_tool_bar : ContextSpecification<IButtonGroup>

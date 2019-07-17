@@ -1,8 +1,8 @@
 ﻿using System.Data;
-using OSPSuite.BDDHelper;
-using OSPSuite.BDDHelper.Extensions;
 using FakeItEasy;
 using OSPSuite.Assets;
+using OSPSuite.BDDHelper;
+using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core;
 using OSPSuite.Core.Chart;
 using OSPSuite.Core.Chart.ParameterIdentifications;
@@ -14,7 +14,7 @@ using OSPSuite.Presentation.Presenters.ParameterIdentifications;
 using OSPSuite.Presentation.Services;
 using OSPSuite.Presentation.Views.ParameterIdentifications;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ParameterIdentificationResidualHistogramPresenter : ContextSpecification<IParameterIdentificationResidualHistogramPresenter>
    {

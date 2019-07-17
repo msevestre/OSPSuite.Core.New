@@ -1,11 +1,10 @@
-﻿using OSPSuite.BDDHelper;
+﻿using DevExpress.XtraEditors.DXErrorProvider;
+using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility.Validation;
-using DevExpress.XtraEditors.DXErrorProvider;
 using OSPSuite.Presentation.DTO;
+using OSPSuite.Utility.Validation;
 
-
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_DxValidatableDTO : ContextSpecification<DummyDxValidatableDTO>
    {

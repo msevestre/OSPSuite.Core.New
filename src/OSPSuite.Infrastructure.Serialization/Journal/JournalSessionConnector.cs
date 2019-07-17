@@ -5,7 +5,7 @@ using OSPSuite.Core.Journal;
 using OSPSuite.Core.Services;
 using OSPSuite.Utility;
 
-namespace OSPSuite.Infrastructure.Serialization.Journal
+namespace OSPSuite.Infrastructure.Journal
 {
    public interface IJournalSessionConnector
    {

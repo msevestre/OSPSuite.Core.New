@@ -9,10 +9,9 @@ using OSPSuite.Core.Events;
 using OSPSuite.Core.Services;
 using OSPSuite.Presentation.Core;
 using OSPSuite.Presentation.Presenters;
-using OSPSuite.Presentation.Presenters.ParameterIdentifications;
-using OSPSuite.Presentation.Services.SensitivityAnalyses;
+using OSPSuite.Presentation.Services;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_SensitivityAnalysisTask : ContextSpecification<SensitivityAnalysisTask>
    {

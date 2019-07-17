@@ -4,7 +4,6 @@ using System.Linq;
 using NUnit.Framework;
 using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Chart;
-using OSPSuite.Utility.Extensions;
 using OSPSuite.Core.Comparison;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Builder;
@@ -14,8 +13,9 @@ using OSPSuite.Core.Domain.Formulas;
 using OSPSuite.Core.Domain.PKAnalyses;
 using OSPSuite.Core.Domain.UnitSystem;
 using OSPSuite.Core.Serialization.Exchange;
+using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Helpers
+namespace OSPSuite.Core.Helpers
 {
    public static class AssertForSpecs
    {

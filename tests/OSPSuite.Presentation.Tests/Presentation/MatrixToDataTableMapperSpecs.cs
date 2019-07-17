@@ -5,7 +5,7 @@ using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Domain;
 using OSPSuite.Presentation.Mappers.ParameterIdentifications;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_MatrixArrayToDataTableMapper : ContextSpecification<MatrixToDataTableMapper>
    {

@@ -1,10 +1,10 @@
 ﻿using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
+using OSPSuite.Presentation.DTO;
 using OSPSuite.Utility.Reflection;
 using OSPSuite.Utility.Validation;
-using OSPSuite.Presentation.DTO;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    internal abstract class concern_for_ValidatableDTO : ContextSpecification<ValidatableDTO<ValidatableForSpecs>>
    {

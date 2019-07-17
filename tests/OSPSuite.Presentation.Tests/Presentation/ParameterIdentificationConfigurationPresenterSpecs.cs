@@ -13,7 +13,7 @@ using OSPSuite.Presentation.Presenters.ParameterIdentifications;
 using OSPSuite.Presentation.Views.ParameterIdentifications;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ParameterIdentificationConfigurationPresenter : ContextSpecification<ParameterIdentificationConfigurationPresenter>
    {

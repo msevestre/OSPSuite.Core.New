@@ -1,6 +1,6 @@
-﻿using OSPSuite.BDDHelper;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.SensitivityAnalyses;
 using OSPSuite.Core.Domain.Services.SensitivityAnalyses;
@@ -10,7 +10,7 @@ using OSPSuite.Presentation.Mappers.SensitivityAnalyses;
 using OSPSuite.Presentation.Presenters.SensitivityAnalyses;
 using OSPSuite.Presentation.Views.SensitivityAnalyses;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_SensitivityAnalysisParametersPresenter : ContextSpecification<SensitivityAnalysisParametersPresenter>
    {

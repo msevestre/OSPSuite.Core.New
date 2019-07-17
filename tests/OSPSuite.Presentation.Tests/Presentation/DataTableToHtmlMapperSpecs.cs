@@ -4,7 +4,7 @@ using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Presentation.Mappers;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_DataTableToHtmlMapper : ContextSpecification<DataTableToHtmlMapper>
    {

@@ -2,28 +2,25 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using OSPSuite.BDDHelper;
-using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility;
-using OSPSuite.Utility.Collections;
 using FakeItEasy;
 using OSPSuite.Assets;
-using OSPSuite.Core;
+using OSPSuite.BDDHelper;
+using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Mappers;
 using OSPSuite.Core.Domain.ParameterIdentifications;
 using OSPSuite.Core.Domain.Services;
 using OSPSuite.Core.Domain.UnitSystem;
-using OSPSuite.Core.Extensions;
 using OSPSuite.Core.Serialization.ParameterIdentificationExport;
 using OSPSuite.Core.Serialization.SimModel.Services;
 using OSPSuite.Core.Services;
 using OSPSuite.Core.Services.ParameterIdentifications;
 using OSPSuite.Helpers;
-using OSPSuite.Presentation.Services.ParameterIdentifications;
+using OSPSuite.Utility;
+using OSPSuite.Utility.Collections;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ParameterIdentificationExportTask : ContextSpecification<ParameterIdentificationExportTask>
    {

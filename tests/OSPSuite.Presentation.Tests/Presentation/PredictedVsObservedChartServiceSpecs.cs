@@ -13,10 +13,9 @@ using OSPSuite.Core.Extensions;
 using OSPSuite.Core.Services;
 using OSPSuite.Core.Services.ParameterIdentifications;
 using OSPSuite.Helpers;
-using OSPSuite.Presentation.Services.ParameterIdentifications;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_PredictedVsObservedChartService : ContextSpecification<PredictedVsObservedChartService>
    {

@@ -5,7 +5,7 @@ using OSPSuite.Core.Chart;
 using OSPSuite.Presentation.Presenters.Charts;
 using OSPSuite.Presentation.Views.Charts;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ChartSettingsPresenter : ContextSpecification<IChartSettingsPresenter>
    {

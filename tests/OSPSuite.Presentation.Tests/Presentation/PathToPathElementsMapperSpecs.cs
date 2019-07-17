@@ -9,7 +9,7 @@ using OSPSuite.Presentation.DTO;
 using OSPSuite.Presentation.Mappers;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_PathToPathElementsMapper : ContextSpecification<IPathToPathElementsMapper>
    {

@@ -6,7 +6,7 @@ using OSPSuite.Core.Domain;
 using OSPSuite.Presentation.Nodes;
 using OSPSuite.Presentation.Presenters.Nodes;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ObjectBaseNode : ContextSpecification<ITreeNode<IEntity>>
    {

@@ -11,7 +11,7 @@ using OSPSuite.Core.Services;
 using OSPSuite.Presentation.DTO;
 using OSPSuite.Presentation.Mappers;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_DiffItemToDiffItemDTOMapper : ContextSpecification<IDiffItemToDiffItemDTOMapper>
    {

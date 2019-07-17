@@ -5,7 +5,7 @@ using OSPSuite.Presentation.Presenters.Diagram;
 
 namespace OSPSuite.Presentation.Views.Diagram
 {
-   public interface IBaseDiagramView :  IView<IBaseDiagramPresenter>
+   public interface IBaseDiagramView : IView<IBaseDiagramPresenter>
    {
       IDiagramModel Model { set; }
       IBaseDiagramPresenter Presenter { get; }
@@ -20,11 +20,13 @@ namespace OSPSuite.Presentation.Views.Diagram
 
       void CenterAt<T>(T node);
       void Refresh();
-      bool GridVisible { set; get;  }
+      bool GridVisible { set; get; }
       void Zoom(PointF currentLocation, float factor);
       void SetBackColor(Color color);
 
       Bitmap GetBitmap(IContainerBase containerBase);
       void PrintPreview();
+
+      void CopyToClipboard(Image image);
    }
 }

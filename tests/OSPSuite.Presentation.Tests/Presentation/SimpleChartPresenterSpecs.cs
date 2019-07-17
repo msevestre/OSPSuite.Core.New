@@ -1,8 +1,6 @@
-﻿using OSPSuite.BDDHelper;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility.Events;
-using FakeItEasy;
-using OSPSuite.Core;
 using OSPSuite.Core.Chart;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Data;
@@ -13,9 +11,9 @@ using OSPSuite.Core.Extensions;
 using OSPSuite.Helpers;
 using OSPSuite.Presentation.Presenters.Charts;
 using OSPSuite.Presentation.Views.Charts;
-using OSPSuite.Utility.Collections;
+using OSPSuite.Utility.Events;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_SimpleChartPresenter : ContextSpecification<ISimpleChartPresenter>
    {

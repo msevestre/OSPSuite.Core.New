@@ -1,6 +1,6 @@
 ﻿using OSPSuite.Core.Commands.Core;
 
-namespace OSPSuite.Infrastructure.Serialization.ORM.History
+namespace OSPSuite.Infrastructure.ORM.History
 {
    public interface IHistoryManagerFactory
    {

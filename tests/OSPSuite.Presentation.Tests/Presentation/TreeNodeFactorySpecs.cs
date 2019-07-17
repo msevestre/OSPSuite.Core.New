@@ -1,6 +1,6 @@
-﻿using OSPSuite.BDDHelper;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Data;
 using OSPSuite.Core.Domain.Repositories;
@@ -8,7 +8,7 @@ using OSPSuite.Presentation.Nodes;
 using OSPSuite.Presentation.Presenters.Nodes;
 using OSPSuite.Presentation.Services;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_TreeNodeFactory : ContextSpecification<ITreeNodeFactory>
    {

@@ -10,9 +10,8 @@ using OSPSuite.Helpers;
 using OSPSuite.Presentation.DTO;
 using OSPSuite.Presentation.Presenters.Charts;
 using OSPSuite.Presentation.Views.Charts;
-using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_DataBrowserPresenter : ContextSpecification<IDataBrowserPresenter>
    {

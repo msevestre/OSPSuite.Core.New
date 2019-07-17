@@ -5,7 +5,7 @@ using OSPSuite.Core.Domain;
 using OSPSuite.Presentation.Core;
 using OSPSuite.UI.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.UI
 {
    public abstract class concern_for_DragEventArgsExtensions : StaticContextSpecification
    {

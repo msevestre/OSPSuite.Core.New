@@ -13,7 +13,7 @@ using OSPSuite.Core.Domain.UnitSystem;
 using OSPSuite.Core.Services;
 using OSPSuite.Helpers;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_CurveChartExportTask : ContextSpecification<ICurveChartExportTask>
    {

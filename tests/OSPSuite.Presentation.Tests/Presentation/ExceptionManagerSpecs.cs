@@ -9,7 +9,7 @@ using OSPSuite.Presentation.Views;
 using OSPSuite.Utility.Exceptions;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ExceptionManager : ContextSpecification<IExceptionManager>
    {

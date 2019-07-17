@@ -1,11 +1,11 @@
 ﻿using System.Linq;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility.Validation;
-using FakeItEasy;
 using OSPSuite.Presentation.DTO;
+using OSPSuite.Utility.Validation;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public class When_creating_a_validatable_dto_for_a_validatable_object : StaticContextSpecification
    {

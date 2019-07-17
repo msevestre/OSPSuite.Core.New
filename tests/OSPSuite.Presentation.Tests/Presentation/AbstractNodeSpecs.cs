@@ -1,9 +1,9 @@
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Helpers;
+using OSPSuite.Presentation.Helpers;
 using OSPSuite.Presentation.Nodes;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_AbstractNode : ContextSpecification<AbstractNode>
    {

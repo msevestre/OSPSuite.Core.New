@@ -5,7 +5,7 @@ using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Services;
 using OSPSuite.Presentation.DTO;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_RenameObjectDTOFactory : ContextSpecification<IRenameObjectDTOFactory>
    {

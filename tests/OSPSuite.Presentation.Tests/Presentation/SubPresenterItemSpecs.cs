@@ -3,7 +3,7 @@ using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Presentation.Core;
 using OSPSuite.Presentation.Presenters;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_SubPresenterItem : ContextSpecification<ISubPresenterItem>
    {

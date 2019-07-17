@@ -1,6 +1,6 @@
 ﻿using OSPSuite.Core.Extensions;
 
-namespace OSPSuite.Infrastructure.Serialization.Journal.Queries
+namespace OSPSuite.Infrastructure.Journal.Queries
 {
    public class NextAvailableJournalPageIndex : IQuery<int>
    {

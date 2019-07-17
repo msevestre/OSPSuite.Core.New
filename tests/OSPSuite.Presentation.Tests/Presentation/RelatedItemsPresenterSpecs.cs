@@ -5,7 +5,7 @@ using OSPSuite.Core.Services;
 using OSPSuite.Presentation.Presenters.Journal;
 using OSPSuite.Presentation.Views.Journal;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_RelatedItemsPresenter : ContextSpecification<IRelatedItemsPresenter>
    {

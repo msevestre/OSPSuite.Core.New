@@ -7,6 +7,7 @@ using OSPSuite.Core.Domain.Data;
 using OSPSuite.Core.Domain.Services;
 using OSPSuite.Helpers;
 using OSPSuite.Presentation.Core;
+using OSPSuite.Presentation.Helpers;
 using OSPSuite.Presentation.Mappers;
 using OSPSuite.Presentation.Nodes;
 using OSPSuite.Presentation.Presenters;
@@ -15,7 +16,7 @@ using OSPSuite.Presentation.Presenters.Nodes;
 using OSPSuite.Utility.Collections;
 using OSPSuite.Utility.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ClassificationPresenter : ContextSpecification<ClassificationPresenter>
    {

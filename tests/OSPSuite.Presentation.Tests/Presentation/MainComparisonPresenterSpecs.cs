@@ -1,9 +1,8 @@
 ﻿using System.Data;
-using OSPSuite.BDDHelper;
-using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility;
 using FakeItEasy;
 using OSPSuite.Assets;
+using OSPSuite.BDDHelper;
+using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Commands;
 using OSPSuite.Core.Comparison;
 using OSPSuite.Core.Domain;
@@ -11,8 +10,9 @@ using OSPSuite.Core.Services;
 using OSPSuite.Presentation.Presenters.Comparisons;
 using OSPSuite.Presentation.Regions;
 using OSPSuite.Presentation.Views.Comparisons;
+using OSPSuite.Utility;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_MainComparisonPresenter : ContextSpecification<IMainComparisonPresenter>
    {

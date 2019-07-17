@@ -1,8 +1,7 @@
-﻿using OSPSuite.BDDHelper;
-using MathNet.Numerics.LinearAlgebra;
-using OSPSuite.Core.Extensions;
+﻿using MathNet.Numerics.LinearAlgebra;
+using OSPSuite.BDDHelper;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_MathNetExtensions : StaticContextSpecification
    {

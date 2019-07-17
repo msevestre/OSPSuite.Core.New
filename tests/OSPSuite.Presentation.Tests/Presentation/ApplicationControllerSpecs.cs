@@ -1,16 +1,16 @@
 ﻿using System.Collections.Generic;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility.Events;
-using FakeItEasy;
 using OSPSuite.Core.Commands.Core;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Builder;
 using OSPSuite.Presentation.Core;
 using OSPSuite.Presentation.Presenters;
+using OSPSuite.Utility.Events;
 using IContainer = OSPSuite.Utility.Container.IContainer;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ApplicationController : ContextSpecification<IApplicationController>
    {

@@ -15,7 +15,7 @@ using OSPSuite.Presentation.Services.Charts;
 using OSPSuite.Presentation.Views.Charts;
 using OSPSuite.Utility.Exceptions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ChartDisplayPresenter : ContextSpecification<ChartDisplayPresenter>
    {

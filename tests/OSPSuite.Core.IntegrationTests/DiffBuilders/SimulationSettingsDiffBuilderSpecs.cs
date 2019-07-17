@@ -8,7 +8,7 @@ using OSPSuite.Utility.Container;
 
 namespace OSPSuite.Core.DiffBuilders
 {
-   public class When_compareing_similar_simulation_settings : concern_for_ObjectComparer
+   public class When_comparing_similar_simulation_settings : concern_for_ObjectComparer
    {
       protected override void Context()
       {
@@ -210,7 +210,7 @@ namespace OSPSuite.Core.DiffBuilders
       }
    }
 
-   public class When_compareing_simulation_settings_with_different_OutPutIntervals : concern_for_ObjectComparer
+   public class When_comparing_simulation_settings_with_different_OutputIntervals : concern_for_ObjectComparer
    {
       protected override void Context()
       {

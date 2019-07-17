@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using OSPSuite.Utility.Container;
-using OSPSuite.Utility.Events;
-using FakeItEasy;
 using OSPSuite.Presentation.Core;
 using OSPSuite.Presentation.Presenters;
+using OSPSuite.Utility.Container;
+using OSPSuite.Utility.Events;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_SubPresenterManager : ContextSpecification<ISubPresenterItemManager<ISubPresenter>>
    {

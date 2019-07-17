@@ -1,6 +1,6 @@
-﻿using OSPSuite.BDDHelper;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Formulas;
 using OSPSuite.Core.Domain.SensitivityAnalyses;
@@ -8,7 +8,7 @@ using OSPSuite.Core.Domain.Services;
 using OSPSuite.Core.Domain.Services.SensitivityAnalyses;
 using OSPSuite.Core.Domain.UnitSystem;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_SensitivityParameterFactory : ContextSpecification<ISensitivityParameterFactory>
    {

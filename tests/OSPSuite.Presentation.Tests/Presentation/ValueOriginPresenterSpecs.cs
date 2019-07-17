@@ -7,7 +7,7 @@ using OSPSuite.Core.Domain;
 using OSPSuite.Presentation.Presenters;
 using OSPSuite.Presentation.Views;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ValueOriginPresenter : ContextSpecification<IValueOriginPresenter>
    {

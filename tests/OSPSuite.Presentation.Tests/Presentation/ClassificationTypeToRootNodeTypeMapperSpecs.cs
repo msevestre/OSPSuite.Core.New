@@ -5,7 +5,7 @@ using OSPSuite.Core.Domain;
 using OSPSuite.Presentation.Mappers;
 using OSPSuite.Presentation.Presenters.Nodes;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ClassificationTypeToRootNodeTypeMapper : ContextSpecification<IClassificationTypeToRootNodeTypeMapper>
    {

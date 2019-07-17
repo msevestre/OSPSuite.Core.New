@@ -1,20 +1,18 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using OSPSuite.BDDHelper;
-using OSPSuite.BDDHelper.Extensions;
 using FakeItEasy;
 using OSPSuite.Assets;
-using OSPSuite.Core;
+using OSPSuite.BDDHelper;
+using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.ParameterIdentifications;
 using OSPSuite.Core.Services.ParameterIdentifications;
 using OSPSuite.Helpers;
 using OSPSuite.Presentation.DTO.ParameterIdentifications;
 using OSPSuite.Presentation.Presenters.ParameterIdentifications;
-using OSPSuite.Presentation.Services.ParameterIdentifications;
 using OSPSuite.Presentation.Views.ParameterIdentifications;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ParameterIdentificationParametersFeedbackPresenter : ContextSpecification<IParameterIdentificationParametersFeedbackPresenter>
    {

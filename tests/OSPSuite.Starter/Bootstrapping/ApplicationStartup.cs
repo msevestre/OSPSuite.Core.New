@@ -13,7 +13,6 @@ using OSPSuite.Core.Services;
 using OSPSuite.Infrastructure;
 using OSPSuite.Infrastructure.Container.Castle;
 using OSPSuite.Infrastructure.Export;
-using OSPSuite.Infrastructure.Serialization;
 using OSPSuite.Infrastructure.Services;
 using OSPSuite.Presentation;
 using OSPSuite.Presentation.Core;

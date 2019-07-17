@@ -2,7 +2,7 @@
 using OSPSuite.Assets;
 using OSPSuite.Utility;
 
-namespace OSPSuite.Infrastructure.Serialization.Journal
+namespace OSPSuite.Infrastructure.Journal
 {
    public interface IJournalSession
    {

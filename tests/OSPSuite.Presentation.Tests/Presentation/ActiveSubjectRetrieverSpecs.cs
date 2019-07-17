@@ -8,7 +8,7 @@ using OSPSuite.Presentation.Presenters;
 using OSPSuite.Presentation.Presenters.Main;
 using OSPSuite.Presentation.Services;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ActiveSubjectRetriever : ContextSpecification<IActiveSubjectRetriever>
    {

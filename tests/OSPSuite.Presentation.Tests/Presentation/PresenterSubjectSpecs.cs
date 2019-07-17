@@ -1,11 +1,11 @@
-﻿using OSPSuite.BDDHelper;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Domain.Builder;
 using OSPSuite.Presentation.Core;
 using OSPSuite.Presentation.Presenters;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_PresenterSubject : ContextSpecification<PresenterSubject>
    {

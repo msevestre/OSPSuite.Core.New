@@ -1,6 +1,7 @@
 ﻿using OSPSuite.BDDHelper;
 using OSPSuite.Core.Chart;
 using OSPSuite.Core.Domain.UnitSystem;
+using OSPSuite.Core.Helpers;
 using OSPSuite.Helpers;
 using OSPSuite.Utility.Container;
 

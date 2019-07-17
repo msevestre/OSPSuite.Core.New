@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace OSPSuite.Infrastructure.Serialization.Journal.Queries
+namespace OSPSuite.Infrastructure.Journal.Queries
 {
    public class AllKnownTags : IQuery<IEnumerable<string>>
    {

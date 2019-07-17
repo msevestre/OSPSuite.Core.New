@@ -1,14 +1,14 @@
 ﻿using System.Drawing;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Events;
 using OSPSuite.Core.Journal;
 using OSPSuite.Presentation.Presenters.Journal;
 using OSPSuite.Presentation.Views.Journal;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_JournalPageEditorFormPresenter : ContextSpecification<JournalPageEditorFormPresenter>
    {

@@ -2,7 +2,7 @@
 using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Presentation.Extensions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public class Formatting_a_string_for_label_that_as_some_weird_case : StaticContextSpecification
    {

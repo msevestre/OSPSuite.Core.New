@@ -173,7 +173,7 @@ namespace OSPSuite.Core.Domain.Formulas
          }
          catch (OSPSuiteException ex)
          {
-            var errorMessage = ex.Message;
+            var errorMessage = ex.FullMessage();
             if (refObject != null)
                errorMessage = $"Cannot evaluate formula for {refObject.Name}\n{errorMessage}";
 

@@ -1,15 +1,15 @@
 using System.Collections.Generic;
 using System.Linq;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Chart;
 using OSPSuite.Core.Domain.Services;
 using OSPSuite.Presentation.Presenters;
 using OSPSuite.Presentation.Presenters.Charts;
 using OSPSuite.Presentation.Views.Charts;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ModalChartTemplateManagerPresenter : ContextSpecification<IModalChartTemplateManagerPresenter>
    {

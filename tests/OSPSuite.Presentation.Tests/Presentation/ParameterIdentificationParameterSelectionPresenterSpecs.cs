@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using OSPSuite.BDDHelper;
 using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.ParameterIdentifications;
 using OSPSuite.Core.Events;
@@ -8,7 +8,7 @@ using OSPSuite.Presentation.Presenters;
 using OSPSuite.Presentation.Presenters.ParameterIdentifications;
 using OSPSuite.Presentation.Views.ParameterIdentifications;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ParameterIdentificationParameterSelectionPresenter : ContextSpecification<IParameterIdentificationParameterSelectionPresenter>
    {

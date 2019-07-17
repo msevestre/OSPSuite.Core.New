@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
-using OSPSuite.Utility;
-using OSPSuite.Utility.Collections;
 using OSPSuite.Core;
 using OSPSuite.Core.Reporting;
+using OSPSuite.Utility;
+using OSPSuite.Utility.Collections;
 
-namespace OSPSuite.Infrastructure.Services
+namespace OSPSuite.Infrastructure.Reporting
 {
    public class ReportTemplateRepository : StartableRepository<ReportTemplate>, IReportTemplateRepository
    {

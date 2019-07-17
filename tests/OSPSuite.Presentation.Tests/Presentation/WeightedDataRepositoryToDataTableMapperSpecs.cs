@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using OSPSuite.BDDHelper;
 using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.Core.Domain.Data;
 using OSPSuite.Core.Domain.ParameterIdentifications;
 using OSPSuite.Core.Domain.Services;
@@ -10,7 +10,7 @@ using OSPSuite.Core.Domain.UnitSystem;
 using OSPSuite.Presentation.Mappers.ParameterIdentifications;
 using DataColumn = OSPSuite.Core.Domain.Data.DataColumn;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_WeightedDataRepositoryToDataTableMapper : ContextSpecification<WeightedDataRepositoryToDataTableMapper>
    {

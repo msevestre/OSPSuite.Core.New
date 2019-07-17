@@ -1,13 +1,10 @@
 ﻿using System.Collections.Generic;
-using OSPSuite.BDDHelper;
-using OSPSuite.BDDHelper.Extensions;
 using FakeItEasy;
 using OSPSuite.Assets;
-using OSPSuite.Utility.Exceptions;
-using OSPSuite.Core;
+using OSPSuite.BDDHelper;
+using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Commands;
 using OSPSuite.Core.Commands.Core;
-using OSPSuite.Core.Domain;
 using OSPSuite.Core.Domain.Data;
 using OSPSuite.Core.Domain.ParameterIdentifications;
 using OSPSuite.Core.Domain.Services;
@@ -16,9 +13,10 @@ using OSPSuite.Core.Domain.UnitSystem;
 using OSPSuite.Helpers;
 using OSPSuite.Presentation.Core;
 using OSPSuite.Presentation.Services;
+using OSPSuite.Utility.Exceptions;
 using Command = OSPSuite.Assets.Command;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_EditObservedDataTask : ContextSpecification<IEditObservedDataTask>
    {

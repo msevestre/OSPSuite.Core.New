@@ -20,10 +20,9 @@ using OSPSuite.Presentation.Presenters.Charts;
 using OSPSuite.Presentation.Presenters.ParameterIdentifications;
 using OSPSuite.Presentation.Services;
 using OSPSuite.Presentation.Services.Charts;
-using OSPSuite.Presentation.Services.ParameterIdentifications;
 using OSPSuite.Presentation.Views.ParameterIdentifications;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ParameterIdentificationPredictedVsObservedChartPresenter : ContextSpecification<ParameterIdentificationPredictedVsObservedChartPresenter>
    {

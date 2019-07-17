@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
+using FakeItEasy;
 using OSPSuite.BDDHelper;
 using OSPSuite.BDDHelper.Extensions;
-using FakeItEasy;
 using OSPSuite.Core.Commands;
 using OSPSuite.Core.Commands.Core;
 using OSPSuite.Core.Domain.Data;
@@ -10,7 +10,7 @@ using OSPSuite.Presentation.Presenters.ObservedData;
 using OSPSuite.Presentation.Views;
 using OSPSuite.Presentation.Views.ObservedData;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_EditMultipleMetaDataRepositoriesMetaDataPresenter : ContextSpecification<EditMultipleDataRepositoriesMetaDataPresenter>
    {

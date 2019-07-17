@@ -2,7 +2,7 @@
 using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Domain.SensitivityAnalyses;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_SensitivityAnalysisRunResult : ContextSpecification<SensitivityAnalysisRunResult>
    {

@@ -3,7 +3,7 @@ using OSPSuite.BDDHelper.Extensions;
 using OSPSuite.Core.Journal;
 using OSPSuite.Presentation.DTO.Journal;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_JournalPageDTO : ContextSpecification<JournalPageDTO>
    {

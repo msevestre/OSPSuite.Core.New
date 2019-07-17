@@ -7,7 +7,7 @@ using OSPSuite.Core.Domain.UnitSystem;
 using OSPSuite.Presentation.Presenters.Charts;
 using OSPSuite.Presentation.Views.Charts;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_AxisSettingsPresenter : ContextSpecification<IAxisSettingsPresenter>
    {

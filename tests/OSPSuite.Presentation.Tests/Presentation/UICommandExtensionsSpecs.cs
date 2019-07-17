@@ -1,12 +1,12 @@
-﻿using OSPSuite.BDDHelper;
-using OSPSuite.Utility.Events;
-using FakeItEasy;
+﻿using FakeItEasy;
+using OSPSuite.BDDHelper;
 using OSPSuite.Presentation.MenuAndBars;
 using OSPSuite.Presentation.Presenters.Events;
 using OSPSuite.Presentation.Presenters.Main;
 using OSPSuite.Presentation.UICommands;
+using OSPSuite.Utility.Events;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_UICommandExtensions : StaticContextSpecification
    {

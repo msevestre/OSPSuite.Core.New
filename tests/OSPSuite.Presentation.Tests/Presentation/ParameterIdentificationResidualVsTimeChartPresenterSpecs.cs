@@ -18,7 +18,7 @@ using OSPSuite.Presentation.Services;
 using OSPSuite.Presentation.Services.Charts;
 using OSPSuite.Presentation.Views.ParameterIdentifications;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ParameterIdentificationResidualVsTimeChartPresenter : ContextSpecification<IParameterIdentificationResidualVsTimeChartPresenter>
    {

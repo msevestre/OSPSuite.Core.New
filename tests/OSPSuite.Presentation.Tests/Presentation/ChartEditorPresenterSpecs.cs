@@ -13,7 +13,7 @@ using OSPSuite.Presentation.Views.Charts;
 using OSPSuite.Utility.Events;
 using OSPSuite.Utility.Exceptions;
 
-namespace OSPSuite.Presentation
+namespace OSPSuite.Presentation.Presentation
 {
    public abstract class concern_for_ChartEditorPresenter : ContextSpecification<IChartEditorPresenter>
    {

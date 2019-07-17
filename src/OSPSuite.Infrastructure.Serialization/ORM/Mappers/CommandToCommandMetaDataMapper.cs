@@ -1,11 +1,11 @@
 using System;
 using OSPSuite.Assets;
+using OSPSuite.Core.Commands.Core;
+using OSPSuite.Infrastructure.ORM.MetaData;
 using OSPSuite.Utility;
 using OSPSuite.Utility.Extensions;
-using OSPSuite.Core.Commands.Core;
-using OSPSuite.Infrastructure.Serialization.ORM.MetaData;
 
-namespace OSPSuite.Infrastructure.Serialization.ORM.Mappers
+namespace OSPSuite.Infrastructure.ORM.Mappers
 {
    public interface ICommandToCommandMetaDataMapper : IMapper<ICommand, CommandMetaData>
    {
